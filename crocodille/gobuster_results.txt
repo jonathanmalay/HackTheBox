@@ -1,0 +1,13 @@
+/.hta                [33m (Status: 403)[0m [Size: 279]
+/.hta.-t             [33m (Status: 403)[0m [Size: 279]
+/.htaccess.-t        [33m (Status: 403)[0m [Size: 279]
+/.htaccess           [33m (Status: 403)[0m [Size: 279]
+/.htpasswd           [33m (Status: 403)[0m [Size: 279]
+/.htpasswd.-t        [33m (Status: 403)[0m [Size: 279]
+/assets              [36m (Status: 301)[0m [Size: 317][34m [--> http://crocodille.htb/assets/][0m
+/css                 [36m (Status: 301)[0m [Size: 314][34m [--> http://crocodille.htb/css/][0m
+/dashboard           [36m (Status: 301)[0m [Size: 320][34m [--> http://crocodille.htb/dashboard/][0m
+/fonts               [36m (Status: 301)[0m [Size: 316][34m [--> http://crocodille.htb/fonts/][0m
+/index.html          [32m (Status: 200)[0m [Size: 58565]
+/js                  [36m (Status: 301)[0m [Size: 313][34m [--> http://crocodille.htb/js/][0m
+/server-status       [33m (Status: 403)[0m [Size: 279]

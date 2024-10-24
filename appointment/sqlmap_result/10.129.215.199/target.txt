@@ -1,0 +1,3 @@
+http://10.129.215.199:80/ (POST)  # /usr/bin/sqlmap -r request.txt --threads=9 --all --output-dir=sqlmap_result
+
+username=admin&password=*&remember-me=on

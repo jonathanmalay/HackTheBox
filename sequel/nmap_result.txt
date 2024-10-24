@@ -1,0 +1,9 @@
+# Nmap 7.94SVN scan initiated Tue Oct  8 13:16:39 2024 as: nmap -T5 -sV -oN nmap_result.txt sequel.htb
+Nmap scan report for sequel.htb (10.129.95.232)
+Host is up (0.11s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+3306/tcp open  mysql?
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Oct  8 13:19:26 2024 -- 1 IP address (1 host up) scanned in 167.25 seconds
