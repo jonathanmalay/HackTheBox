@@ -1,0 +1,2 @@
+[32mFound[0m: gc._msdcs.oopsie.htb [33mStatus: 400[0m [Size: 422]
+[32mFound[0m: _domainkey.oopsie.htb [33mStatus: 400[0m [Size: 422]

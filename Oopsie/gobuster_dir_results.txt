@@ -1,0 +1,11 @@
+/.htaccess           [33m (Status: 403)[0m [Size: 275]
+/.htpasswd           [33m (Status: 403)[0m [Size: 275]
+/.hta                [33m (Status: 403)[0m [Size: 275]
+/css                 [36m (Status: 301)[0m [Size: 306][34m [--> http://oopsie.htb/css/][0m
+/fonts               [36m (Status: 301)[0m [Size: 308][34m [--> http://oopsie.htb/fonts/][0m
+/images              [36m (Status: 301)[0m [Size: 309][34m [--> http://oopsie.htb/images/][0m
+/index.php           [32m (Status: 200)[0m [Size: 10932]
+/js                  [36m (Status: 301)[0m [Size: 305][34m [--> http://oopsie.htb/js/][0m
+/server-status       [33m (Status: 403)[0m [Size: 275]
+/themes              [36m (Status: 301)[0m [Size: 309][34m [--> http://oopsie.htb/themes/][0m
+/uploads             [36m (Status: 301)[0m [Size: 310][34m [--> http://oopsie.htb/uploads/][0m
