@@ -1,0 +1,46 @@
+{
+  "STATISTICS_TABS_TRAFFIC_STATS": "Traffic Stats",
+  "DPI_NO_DATA": "No statistics data",
+
+  "STATISTICS_RESET_DATA_BUTTON_LABEL": "Reset Statistics",
+  "STATISTICS_RESET_DATA_MODAL_TITLE": "Reset Statistics",
+  "STATISTICS_RESET_DATA_MODAL_MESSAGE": "All collected data will be discarded. Are you sure you want to proceed?",
+  "STATISTICS_RESET_DATA_SUCCESS": "Statistics data has been reset",
+  "STATISTICS_RESET_DATA_ERROR": "There was an error resetting statistics data, please try again",
+
+  "DPI_CATEGORIES_HEADER_TRAFFIC_TYPE": "Traffic Type",
+  "DPI_CATEGORIES_HEADER_TRAFFIC": "Traffic",
+  "DPI_CATEGORIES_HEADER_CLIENTS": "Clients",
+
+  "TRAFFIC_CATEGORY_COUNT": "{value1} of {value2} categories",
+  "TRAFFIC_SELECTED_APPS_COUNT": "{value1} of {value2} services",
+
+  "TRAFFIC_DONUT_LABEL_IDENTIFIED_TRAFFIC": "Identified Traffic",
+
+  "TRAFFIC_TABLE_LABEL_NAME": "Name",
+  "TRAFFIC_TABLE_LABEL_TRAFFIC": "Traffic",
+  "TRAFFIC_TABLE_LABEL_UP": "Up",
+  "TRAFFIC_TABLE_LABEL_DOWN": "Down",
+  "TRAFFIC_TABLE_LABEL_CLIENTS": "Clients",
+  "TRAFFIC_TABLE_LABEL_CLIENT": "Client",
+  "TRAFFIC_TABLE_LABEL_APPLICATION_TRAFFIC": "Identified Traffic %",
+  "TRAFFIC_TABLE_LABEL_TOTAL_TRAFFIC": "Total Traffic",
+  
+  "TRAFFIC_TOOLTIP_LABEL_OTHER_TRAFFIC": "Other Traffic",
+  "TRAFFIC_TOOLTIP_LABEL_APPLICATIONS": "Applications",
+  
+
+  "APP_TABLE_BUTTON_SHOW_ALL": "Show All",
+  "APP_TABLE_BUTTON_SHOW_TOP_USAGE": "Show top usage",
+
+  "TRAFFIC_TAB_LABEL_OVERVIEW": "Overview",
+  "TRAFFIC_TAB_LABEL_TABLE": "Table",
+  "TRAFFIC_TAB_LABEL_TOP_APPLICATIONS": "Top Applications",
+
+  "TRAFFIC_SORTING_LABEL_BY_UPLOAD": "By Upload Traffic",
+  "TRAFFIC_SORTING_LABEL_BY_DOWNLOAD": "By Download Traffic",
+  "TRAFFIC_SORTING_LABEL_BY_TRAFFIC": "By Traffic Usage",
+  "TRAFFIC_SORTING_LABEL_UPLOAD": "Upload Traffic",
+  "TRAFFIC_SORTING_LABEL_DOWNLOAD": "Download Traffic",
+  "TRAFFIC_SORTING_LABEL_TRAFFIC": "Traffic Usage"
+}

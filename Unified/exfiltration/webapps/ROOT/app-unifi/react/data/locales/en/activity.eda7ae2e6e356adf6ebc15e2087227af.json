@@ -1,0 +1,42 @@
+{
+  "ACTIVITY_SECTION_NOTIFICATIONS": "Notifications",
+
+  "NOTIFICATIONS_NO_CONTENT_TITLE": "You have no Notifications",
+  "NOTIFICATIONS_NO_CONTENT_DETAIL": "Nothing to report right now, but check this page periodically to track all the events and actions occurring within your UniFi deployment.",
+
+  "NOTIFICATIONS_TABLE_HEADER_STATUS_ALERT_NOTIFICATIONS": "Notifications",
+  "NOTIFICATIONS_TABLE_HEADER_CATEGORY": "Category",
+  "NOTIFICATIONS_TABLE_HEADER_EVENT_DETAILS": "Event Details",
+  "NOTIFICATIONS_TABLE_HEADER_DATE_TIME": "Date/Time",
+
+  "NOTIFICATIONS_TABLE_NOTIFICATION_INFO": "Low",
+  "NOTIFICATIONS_TABLE_NOTIFICATION_WARNING": "High",
+
+  "NOTIFICATIONS_TABLE_CATEGORY_PERFORMANCE": "Performance",
+  "NOTIFICATIONS_TABLE_CATEGORY_SOFTWARE_UPDATE": "SW Update",
+  "NOTIFICATIONS_TABLE_CATEGORY_SYSTEM": "System",
+  "NOTIFICATIONS_TABLE_CATEGORY_TOPOLOGY": "Topology",
+
+  "NOTIFICATION_DATE_TIME_SECONDS_AGO": "{seconds} {seconds, plural, one{second} other{seconds}} ago",
+  "NOTIFICATION_DATE_TIME_MINUTES_AGO": "{minutes} {minutes, plural, one{minute} other{minutes}} ago",
+  "NOTIFICATION_DATE_TIME_TODAY": "Today at {time}",
+
+  "NOTIFICATIONS_FILTER_SHOW_ALL_NOTIFICATIONS": "Show All Notifications",
+  "NOTIFICATIONS_FILTER_HEADER_NOTIFICATION_TYPE": "Attention",
+  "NOTIFICATIONS_FILTER_HEADER_CATEGORY_TYPE": "Category",
+  "NOTIFICATIONS_FILTER_HEADER_DEVICE_TYPE": "UniFi Devices",
+
+  "NOTIFICATIONS_FILTER_NO_CONTENT_FOUND_TITLE": "We couldn't find a match",
+  "NOTIFICATIONS_FILTER_NO_CONTENT_FOUND_DETAIL": "We couldn't find any notifications that match your search criteria. Try adjusting your Display Options above or reset all filters to see every notification that's been generated.",
+  
+  "NOTIFICATIONS_FILTER_NOTIFICATION_TYPE_INFO": "Low",
+  "NOTIFICATIONS_FILTER_NOTIFICATION_TYPE_WARNING": "High",
+  "NOTIFICATIONS_FILTER_DEVICE_TYPE_GATEWAY": "Gateway",
+  "NOTIFICATIONS_FILTER_DEVICE_TYPE_SWITCH": "Switch",
+  "NOTIFICATIONS_FILTER_DEVICE_TYPE_ACCESS_POINT": "Access Point",
+  "NOTIFICATIONS_FILTER_DEVICE_TYPE_SMART_POWER": "Smart Power",
+  "NOTIFICATIONS_FILTER_DEVICE_TYPE_BUILDING_BRIDGE": "Building Bridge",
+  "NOTIFICATIONS_FILTER_DEVICE_TYPE_ULTE": "ULTE",
+  "NOTIFICATIONS_FILTER_DEVICE_TYPE_NON_NETWORK_DEVICES": "Non-Network Devices"
+}
+
