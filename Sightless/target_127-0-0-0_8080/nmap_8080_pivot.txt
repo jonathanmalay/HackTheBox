@@ -1,0 +1,16 @@
+# Nmap 7.94SVN scan initiated Sat Oct 26 16:21:24 2024 as: nmap -sC -sV -v -p 8000 -oN nmap_8080_pivot.txt localhost
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00013s latency).
+
+PORT     STATE SERVICE VERSION
+8000/tcp open  http    Apache httpd 2.4.52 ((Ubuntu))
+|_http-server-header: Apache/2.4.52 (Ubuntu)
+|_http-open-proxy: Proxy might be redirecting requests
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| http-title: froxlor - Domain not configured
+|_Requested resource was notice.html
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct 26 16:21:37 2024 -- 1 IP address (1 host up) scanned in 13.56 seconds
