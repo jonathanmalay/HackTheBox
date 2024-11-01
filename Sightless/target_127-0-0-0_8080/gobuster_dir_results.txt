@@ -10,6 +10,6 @@
 /lib                 [36m (Status: 301)[0m [Size: 311][34m [--> http://localhost:8000/lib/][0m
 /logs                [36m (Status: 301)[0m [Size: 312][34m [--> http://localhost:8000/logs/][0m
 /server-status       [32m (Status: 200)[0m [Size: 23125]
-/templates           [36m (Status: 301)[0m [Size: 317][34m [--> http://localhost:8000/templates/][0m
+/templates           [36m (Status: 301)[0m [Size: 317][34m [--> http://localhost:8000/templates/][0mss
 /tests               [36m (Status: 301)[0m [Size: 313][34m [--> http://localhost:8000/tests/][0m
 /vendor              [36m (Status: 301)[0m [Size: 314][34m [--> http://localhost:8000/vendor/][0m
