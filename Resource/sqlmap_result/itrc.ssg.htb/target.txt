@@ -1,0 +1,1 @@
+http://itrc.ssg.htb:80/?page=ticket&id=* (GET)  # /usr/bin/sqlmap -r request.txt --threads=9 --all --output-dir=sqlmap_result
