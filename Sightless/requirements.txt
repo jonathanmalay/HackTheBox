@@ -104,7 +104,6 @@ ephem==4.1.5
 et-xmlfile==1.0.1
 executing==2.0.1
 ExifRead==3.0.0
--e git+https://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@github.com/jonathanmalay/exploit-tool-box.git@ebbb9cb7d398f5e41f7b4fbc2d83564ab0ff8d9e#egg=exploit_tool_box
 faraday-agent-dispatcher==3.2.1
 faraday-agent-parameters-types==1.4.0
 faraday-cli==2.1.8
