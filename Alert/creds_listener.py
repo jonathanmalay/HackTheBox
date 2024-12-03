@@ -67,7 +67,7 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
 
                 save_path = 'exfiltrated/' + valid_path
                 
-                with open(save_path, 'ab') as f:
+                with open(save_path, 'wb') as f:
                     f.write(res.encode()) 
 
 
